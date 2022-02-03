@@ -124,7 +124,8 @@ h1 {
 .dublin-welcome {
     text-align: center;
     color: red;
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     height: 20px;
     font-size: 25px;
 }
@@ -138,3 +139,73 @@ h1 {
     padding-right: 30px;
     padding-top: 30px;
 }
+
+.parent p {
+    font-size: 16px;
+    color: black;
+}
+
+.child1 {
+    display: flex;
+    width: 300px;
+    height: 300px;
+}
+
+.child2 {
+    display: flex;
+    width: 300px;
+    height: 300px;  
+}
+
+.child3 {
+    display: flex;
+    width: 300px;
+    height: 300px;
+}
+
+
+.dublin-image {
+    height: 240px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+.image1 {
+    width: 275px;
+    height: 275px;
+    background: url('../images/custom-house.jpeg') no-repeat center center;
+    border-radius: 50%;
+}
+
+.image2 {
+    width: 275px;
+    height: 275px;
+    background: url('../images/trinity.jpeg') no-repeat center center;
+    border-radius: 50%;
+}
+
+.image3 {
+    width: 275px;
+    height: 275px;
+    background: url('../images/gcd.jpeg') no-repeat center center;
+    border-radius: 50%;
+}
+
+.image4 {
+    width: 275px;
+    height: 275px;
+    background: url('../images/dublin-temple.jpeg') no-repeat center center;
+    border-radius: 50%;
+}
+
+
+footer  {
+    height: 160px;
+    background-color: black;
+    font-family: roboto;
+    color: white;
+    padding-top: 40px;
+}
+
