@@ -118,3 +118,23 @@ h1 {
     border-radius: 50%;
     opacity: .6;
 }
+
+/* About Dublin City Walks */
+
+.dublin-welcome {
+    text-align: center;
+    color: red;
+    padding-top: 10px;
+    height: 20px;
+    font-size: 25px;
+}
+
+
+.parent {
+    height: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 30px;
+    padding-top: 30px;
+}
