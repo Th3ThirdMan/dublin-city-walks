@@ -19,6 +19,7 @@ body {
 header {
     height: 10em;
     background-color: black;
+    width: 100%;
 }
 
 h1 {
@@ -76,6 +77,9 @@ h1 {
 #dublin-vista {
     height: 28em;
     background: url('../images/dublin-bridge.jpeg') no-repeat center center;
+    
+    /* Animates zoom on page */
+
     animation-name: vista-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -272,6 +276,269 @@ footer  {
     background: url('../images/poolbeg.jpg') no-repeat center center;
     height: 400px;
     width: 100%;
+}
+
+
+@media all and (max-width: 600px) {
+
+    header {
+        height: 70em;
+        background-color: black;
+    }
+
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    color: white;
+    text-transform: uppercase;
+}
+
+#logo {
+    float: left;
+    margin-left: 10vh;
+    font-size: 150%;
+    margin-top: 8vh;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 2px;
+    line-height: 8em;
+}
+
+#menu li {
+    float: right;
+    margin-right: 16rem;
+    display: inline;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid white;
+    color: rgb(245, 73, 6)
+}
+
+.active {
+    border-bottom: 1px solid white;
+}
+
+
+/* Images */
+
+#dublin-vista-outer {
+    width: 100%;
+    height: 28em;
+    overflow: hidden;
+}
+
+
+#dublin-vista {
+    height: 28em;
+    background: url('../images/dublin-bridge.jpeg') no-repeat center center;
+    animation-name: vista-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+}
+
+/* creates a level of zoom in image */
+
+@keyframes vista-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.05);
+    }
+}
+
+
+#dublin-vista-text h2 {
+    color: white;
+    text-align: center;
+    padding: 5vh 5vh 5vh 5vh;
+}
+
+
+#dublin-vista-text {
+    font-family: 'Source Sans Pro';    
+    font-size: 115%;
+    text-transform: uppercase;
+
+    width: 25vh;
+    height: 25vh;
+    bottom: 4vh;
+    right: 4vh;
+    position: absolute;
+    margin-right: 3vh;
+    background-color: rgb(84, 99, 141);
+    border-radius: 50%;
+    opacity: .6;
+}
+
+/* About Dublin City Walks */
+
+.dublin-welcome {
+    text-align: center;
+    color: red;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    height: 1em;
+    font-size: 140%;
+}
+
+
+.parent {
+    height: 24em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 2em;
+    padding-top: 3em;
+}
+
+.parent p {
+    font-size: 90%;
+    color: black;
+}
+
+.child1 {
+    display: flex;
+    width: 50%;
+    height: 50%;
+}
+
+.child2 {
+    display: flex;
+    width: 50%;
+    height: 50%;  
+}
+
+.child3 {
+    display: flex;
+    width: 50%;
+    height: 50%;
+}
+
+
+.dublin-image {
+    height: 16em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 4em;
+}
+
+.image1 {
+    width: 16em;
+    height: 16em;
+    background: url('../images/custom-house.jpeg') no-repeat center center;
+    border-radius: 50%;
+}
+
+.image2 {
+    width: 16em;
+    height: 16em;
+    background: url('../images/trinity.jpeg') no-repeat center center;
+    border-radius: 50%;
+}
+
+.image3 {
+    width: 16em;
+    height: 16em;
+    background: url('../images/gcd.jpeg') no-repeat center center;
+    border-radius: 50%;
+}
+
+.image4 {
+    width: 16em;
+    height: 16em;
+    background: url('../images/dublin-temple.jpeg') no-repeat center center;
+    border-radius: 50%;
+}
+
+
+/* Footer Content */
+
+footer  {
+    height: 10em;
+    background-color: black;
+    font-family: roboto;
+    color: white;
+    padding-top: 40px;
+    position: sticky;
+}
+
+
+.footer-bottom {
+    text-align: center;
+}
+
+
+.footer-bottom > p {
+    padding-top: 30px;
+}
+
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+
+.footer-content h4 {
+    color: white;
+    font-size: 130%;
+}
+
+/* Social Links as part of Footer*/
+
+.social-links {
+    color: white;
+    list-style: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links li {
+    margin: 0 3vh;
+    padding-bottom: 3vh;
+    padding-top: 2vh;
+}
+
+
+.social-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 160%;
+}
+
+
+.social-links a:hover {
+    color: rgb(245, 73, 6);
+    transition: color 1s ease;
+}
+
+/* Walks Page Image */
+
+
+.best-walks {
+    background: url('../images/poolbeg.jpg') no-repeat center center;
+    height: 400px;
+    width: 100%;
+}
 }
 
 
