@@ -14,3 +14,25 @@ body {
     font-size: 15px;
     margin: auto;
 }
+
+/* headings and logo */
+
+header {
+    height: 100px;
+    background-color: black;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    color: white;
+    text-transform: uppercase;
+}
+
+#logo {
+    float: left;
+    margin-left: 20px;
+    font-size: 150%;
+    margin-top: 30px;
+}
