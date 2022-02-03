@@ -36,3 +36,31 @@ h1 {
     font-size: 150%;
     margin-top: 30px;
 }
+
+/* navigation links */
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 2px;
+    line-height: 80px;
+}
+
+#menu li {
+    float: right;
+    margin-right: 70px;
+    display: inline;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid white;
+    color: rgb(245, 73, 6)
+}
+
+.active {
+    border-bottom: 1px solid white;
+}
