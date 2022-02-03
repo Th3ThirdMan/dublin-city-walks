@@ -64,3 +64,57 @@ h1 {
 .active {
     border-bottom: 1px solid white;
 }
+
+
+/* Images */
+
+#dublin-vista-outer {
+    width: 100%;
+    height: 430px;
+    overflow: hidden;
+}
+
+
+#dublin-vista {
+    height: 430px;
+    background: url('../images/dublin-bridge.jpeg') no-repeat center center;
+    animation-name: vista-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+}
+
+/* creates a level of zoom in image */
+
+@keyframes vista-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.05);
+    }
+}
+
+
+#dublin-vista-text h2 {
+    color: white;
+    text-align: center;
+    padding: 35px 35px 35px 35px;
+}
+
+
+#dublin-vista-text {
+    font-family: 'Source Sans Pro';    
+    font-size: 115%;
+    text-transform: uppercase;
+
+    width: 190px;
+    height: 190px;
+    bottom: 30px;
+    right: 30px;
+    position: absolute;
+    margin-right: 30px;
+    background-color: rgb(84, 99, 141);
+    border-radius: 50%;
+    opacity: .6;
+}
