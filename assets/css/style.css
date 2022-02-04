@@ -279,11 +279,12 @@ footer  {
 }
 
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 65em) {
 
     header {
-        height: 70em;
+        height: 60em;
         background-color: black;
+        width: 100%
     }
 
 
@@ -297,14 +298,14 @@ h1 {
 #logo {
     float: left;
     margin-left: 10vh;
-    font-size: 150%;
+    font-size: 140%;
     margin-top: 8vh;
 }
 
 /* navigation links */
 
 #menu {
-    font-size: 120%;
+    font-size: 100%;
     letter-spacing: 2px;
     line-height: 8em;
 }
