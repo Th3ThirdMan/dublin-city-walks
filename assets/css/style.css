@@ -167,7 +167,7 @@ h1 {
 
 .dublin-image {
     height: 14em;
-    display: flex;
+    display: inline;
     flex-direction: row;
     justify-content: space-evenly;
     padding-bottom: 6em;
@@ -448,13 +448,14 @@ h1 {
     height: 20%;
 }
 
-#dublin-image {
+.dublin-image {
     height: 5em;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding-bottom: 2em;
 }
+
 
 .image1 {
     width: 7em;
