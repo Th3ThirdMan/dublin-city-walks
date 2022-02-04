@@ -11,7 +11,6 @@ body {
     font-family: roboto;
     font-weight: 200;
     background-color:rgb(210, 213, 223);
-    font-size: 15px;
 }
 
 /* headings and logo */
@@ -283,7 +282,7 @@ footer  {
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
+
 
 @media all and (max-width: 65em) {
 
@@ -317,9 +316,9 @@ h1 {
 
 #logo {
     float: left;
-    font-size: 50%;
-    margin-top: 3vh;
-    line-height: 2em;
+    font-size: 60%;
+    margin-top: 2em;
+    margin-left 1em;
 }
 
 /* Navigation links */
@@ -361,7 +360,7 @@ h1 {
 
 
 #dublin-vista {
-    height: 10em;
+    height: 8em;
     width: 100%;
     background: url('../images/dublin-bridge.jpeg') no-repeat center center;
 
@@ -449,7 +448,7 @@ h1 {
     height: 20%;
 }
 
-.dublin-image {
+#dublin-image {
     height: 5em;
     display: flex;
     flex-direction: row;
@@ -545,7 +544,7 @@ footer  {
     transition: color 1s ease;
 }
 
-.dublin-image {
+section, .dublin-image {
     min-height: calc(20vh - 9vh);
 }
 
