@@ -587,7 +587,7 @@ body {
 /* Headings and Logo */
 
 header {
-    height: 4em;
+    height: 16vh;
     background-color: black;
     width: 100%;
 }
@@ -600,25 +600,24 @@ h1 {
 }
 
 #logo {
-    float: left;
-    font-size: 50%;
-    margin-top: 3vh;
+    font-size: 30%;
+    margin-top: 2vh;
     margin-left: 1em;
 }
 
 /* Navigation links */
 
 #menu {
-    font-size: 40%;
-    letter-spacing: 1px;
-    line-height: 8em;
+    float: right;
+    font-size: 1vh;
+    letter-spacing: 2px;
+    line-height: 6vh;
     width: 100%;
+    display: inline;
 }
 
 #menu li {
-    float: right;
-    margin-right: 6em;
-    display: inline;
+    padding-right: 3em;
 }
 
 #menu a {
@@ -687,16 +686,16 @@ h1 {
     color: red;
     padding-top: 2em;
     height: 1em;
-    font-size: 60%;
+    font-size: 55%;
 }
 
 .parent {
-    height: 22vh;
+    height: 15vh;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    padding-right: 1em;
-    padding-top: 2em;
+    justify-content: space-evenly;
+    padding-right: 3em;
+    padding-bottom: 6em;
 }
 
 .parent p {
@@ -706,20 +705,20 @@ h1 {
 
 .child1 {
     display: flex;
-    width: 20%;
-    height: 20%;
+    width: 100%;
+    height: 40vh;
 }
 
 .child2 {
     display: flex;
-    width: 20%;
-    height: 20%;  
+    width: 100%;
+    height: 40vh;  
 }
 
 .child3 {
     display: flex;
-    width: 20%;
-    height: 20%;
+    width: 100%;
+    height: 40vh;
 }
 
 .dublin-image {
@@ -727,7 +726,7 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding-bottom: 2em;
+    padding-bottom: 3em;
 }
 
 
