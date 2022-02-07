@@ -115,7 +115,7 @@ h1 {
 
 .dublin-welcome {
     text-align: center;
-    color: red;
+    color: rgb(245, 73, 6);
     padding-top: 2em;
     padding-bottom: 1em;
     height: 1px;
@@ -273,6 +273,32 @@ footer  {
     height: 400px;
     width: 100%;
     background-size: cover;
+}
+
+/* Gallery */
+
+#photos {
+    clear: right;
+    line-height: 1;
+    column-count: 4;
+    column-gap: 1;
+    row-gap: 1;
+    background: rgb(254, 254, 255);
+}
+
+#photos > img {
+    width: 100%;
+}
+
+.image-text {
+    color: black;
+    font-family: roboto;
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: solid;
+    padding-top: 2em;
+    bottom: 1vh;
+    
 }
 
 
