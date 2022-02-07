@@ -8,7 +8,7 @@
 
 
 body {
-    font-family: roboto;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
     background-color:rgb(254, 254, 255);
 }
@@ -118,7 +118,7 @@ h1 {
     color: red;
     padding-top: 2em;
     padding-bottom: 1em;
-    height: 1em;
+    height: 1px;
     font-size: 140%;
 }
 
@@ -581,7 +581,7 @@ footer  {
 
 
 body {
-    font-family: roboto;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
     background-color: rgb(254, 254, 255);
 }
@@ -602,7 +602,7 @@ h1 {
 }
 
 #logo {
-    font-size: 30%;
+    font-size: 20%;
     margin-top: 2vh;
     margin-left: 1em;
 }
