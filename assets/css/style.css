@@ -133,7 +133,9 @@ h1 {
 }
 
 .parent p {
+    display: flex;
     font-size: 110%;
+    font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
 
@@ -687,7 +689,6 @@ h1 {
     text-align: center;
     color: red;
     padding-top: 2em;
-    height: 1em;
     font-size: 55%;
 }
 
