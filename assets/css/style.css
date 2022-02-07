@@ -736,32 +736,32 @@ h1 {
 
 
 .image1 {
-    width: 7em;
-    height: 7em;
+    width: 6em;
+    height: 6em;
     background: url('../images/custom-house.jpeg') no-repeat center center;
     border-radius: 50%;
     background-size: cover;
 }
 
 .image2 {
-    width: 7em;
-    height: 7em;
+    width: 6em;
+    height: 6em;
     background: url('../images/trinity.jpeg') no-repeat center center;
     border-radius: 20%;
     background-size: cover;
 }
 
 .image3 {
-    width: 7em;
-    height: 7em;
+    width: 6em;
+    height: 6em;
     background: url('../images/dublin-convention.jpg') no-repeat center center;
     border-radius: 50%;
     background-size: cover;
 }
 
 .image4 {
-    width: 7em;
-    height: 7em;
+    width: 6em;
+    height: 6em;
     background: url('../images/dublin-temple-image.jpg') no-repeat center center;
     border-radius: 20%;
     background-size: cover;
