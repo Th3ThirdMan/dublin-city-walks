@@ -294,39 +294,49 @@ footer  {
 /* Contact Page */
 
 .contact-form {
-    height: 75vh;
+    height: 35em;
     width: 100%;
-    background: url('../images/dublin-howth.jpg') no-repeat center center;
+    background: url('../images/dublin-howth-walk.webp') no-repeat center center;
     background-size: cover;
 }
 
+.contact-form h2 {
+    text-align: center;
+}
+
 .contact-us {
-    margin: 7vh 7vh 5vh 5vh;
-    color: #fff;
-    background: rgb(245, 73, 6);
-    opacity: 1;
+    margin: 30px 30px 30px 30px;
+    color: black;
+    background: rgb(218, 68, 23);
+    opacity: 1.0;
     float: right;
-    padding: 15px;
+    padding: 1vh;
+    border-radius: 1vh;
+}
+
+#subject {
+    border-radius: 1vh;
+    width: 90%;
 }
 
 .text-input {
-    background: transparent;
-    color: #fafafa;
-    width: 100%;
-    height: 4vh;
+    
+    color: black;
+    width: 90%;
+    height: 2em;
     margin: 2vh 0 2vh 0;
     border: 1.5px solid #fafafa;
     border-radius: 1vh;
 }
 
 .contact-button {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
+    margin-top: 1em;
+    border-radius: 1vh;
+    padding: 2vh 4vh 2vh 4vh;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
-    color: #fafafa;
+    background-color: black;
+    color: white;
     display: block;
 }
 
