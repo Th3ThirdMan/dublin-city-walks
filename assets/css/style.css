@@ -340,10 +340,61 @@ footer  {
 
 
 
+@media screen and (max-width: 1200px) {
+
+    .dublin-image {
+        height: 19em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-bottom: 6em;
+    }
+    
+    .image1 {
+        width: 15em;
+        height: 19em;
+        background: url('../images/custom-house.jpeg') no-repeat center center;
+        border-radius: 50%;
+        background-size: cover;
+    }
+    
+    .image2 {
+        width: 15em;
+        height: 19em;
+        background: url('../images/dublin-convention.jpg') no-repeat center center;
+        border-radius: 20%;
+        background-size: cover;
+    }
+    
+    .image3 {
+        width: 15em;
+        height: 19em;
+        background: url('../images/trinity.jpeg') no-repeat center center;
+        border-radius: 50%;
+        background-size: cover;
+    }
+    
+    .image4 {
+        width: 15em;
+        height: 19em;
+        background: url('../images/dublin-temple-image.jpg') no-repeat center center;
+        border-radius: 20%;
+        background-size: cover;
+    }
+}
 
 
 
-@media all and (max-width: 900px) {
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
 
     * {
         margin: 0;
