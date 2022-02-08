@@ -294,39 +294,53 @@ footer  {
 /* Contact Page */
 
 .contact-form {
-    height: 35em;
+    height: 95vh;
     width: 100%;
-    background: url('../images/dublin-howth-walk.webp') no-repeat center center;
+    background: url('../images/dublin-trinity-image.webp') no-repeat center center;
     background-size: cover;
-}
-
-.contact-form h2 {
-    text-align: center;
+    backdrop-filter: blur(2px);
+    
 }
 
 .contact-us {
-    margin: 30px 30px 30px 30px;
-    color: black;
-    background: rgb(218, 68, 23);
-    opacity: 1.0;
+    height: 70vh;
+    width: 45vh;
+    color: rgb(129, 32, 32);
+    font-weight: bold;
+    background-color: rgba(252, 237, 225, 0.671);
+    border: none;
     float: right;
-    padding: 1vh;
-    border-radius: 1vh;
+    position: relative; 
+    right: 70vh;
+    top: 15vh;
+    opacity: 0.8;
+    padding-top: 5vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+   
+}
+
+.contact-us h2 {
+    text-align: center;
+    color: rgb(129, 32, 32);
 }
 
 #subject {
+    width: 40vh;
+    height: 6em;
+    margin: 1vh 2vh 2vh 2vh;
+    border: 1px black solid;
     border-radius: 1vh;
-    width: 90%;
 }
 
 .text-input {
-    
     color: black;
-    width: 90%;
+    width: 40vh;
     height: 2em;
-    margin: 2vh 0 2vh 0;
-    border: 1.5px solid #fafafa;
-    border-radius: 1vh;
+    margin: 1vh 2vh 2vh 2vh;
+    border: 1px black solid;
+    border-radius: 1.5vh;
+    text-align: left;
 }
 
 .contact-button {
@@ -335,9 +349,12 @@ footer  {
     padding: 2vh 4vh 2vh 4vh;
     text-align: center;
     font-size: 100%;
-    background-color: black;
+    background-color: rgb(129, 32, 32);
     color: white;
     display: block;
+    position: relative;
+    left: 12vh;
+    border: 1px white solid;
 }
 
 
