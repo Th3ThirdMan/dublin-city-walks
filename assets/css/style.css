@@ -469,6 +469,16 @@ footer  {
         margin-top: 5vh;
     }
 
+    .dublin-welcome {
+        text-align: center;
+        color: rgb(245, 73, 6);
+        padding-top: 1em;
+        padding-bottom: 2em;
+        height: 1px;
+        font-size: 100%;
+        }
+    
+
     .dublin-image {
         height: 10em;
         justify-content: space-evenly;
@@ -477,6 +487,7 @@ footer  {
         padding-right: 1em;
         padding-left: 1em;
     }
+
     
     .image1 {
         width: 8em;
@@ -512,12 +523,13 @@ footer  {
 
 
 .parent {
-    padding-right: 2em;
+    padding-right: 1vh;
     padding-top: 2vh;
+    padding-bottom: 1vh;
 }
 
 .parent p {
-    font-size: 80%;
+    font-size: 70%;
     font-family: Arial, Helvetica, sans-serif;
     color: #0d0d0d; 
 
