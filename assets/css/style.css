@@ -389,7 +389,7 @@ footer  {
 
 
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 970px) {
 
     header {
         height: 12em;
@@ -450,16 +450,24 @@ footer  {
 @media screen and (max-width: 620px) {
     
     header {
-        height: 10em;
+        height: 11em;
         background-color: black;
         width: 100%;
      }
      
      #menu {
+         float: left;
         font-size: 8px;
         width: 100%;
 
     } 
+
+    #logo {
+        float: left;
+        margin-left: 3vh;
+        font-size: 120%;
+        margin-top: 5vh;
+    }
 
     .dublin-image {
         height: 10em;
