@@ -31,8 +31,8 @@ h1 {
 #logo {
     float: left;
     margin-left: 10vh;
-    font-size: 150%;
-    margin-top: 8vh;
+    font-size: 170%;
+    margin-top: 7vh;
 }
 
 /* navigation links */
@@ -391,6 +391,12 @@ footer  {
 
 @media screen and (max-width: 950px) {
 
+    header {
+        height: 12em;
+        background-color: black;
+        width: 100%;
+     }
+
     #menu {
         float: right;
         margin-left: 2em;
@@ -442,6 +448,7 @@ footer  {
 
 
 @media screen and (max-width: 620px) {
+    
     header {
         height: 10em;
         background-color: black;
