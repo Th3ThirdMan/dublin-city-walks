@@ -159,7 +159,7 @@ h1 {
 
 
 .dublin-image {
-    height: 19em;
+    height: 17em;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -167,32 +167,32 @@ h1 {
 }
 
 .image1 {
-    width: 19em;
-    height: 19em;
+    width: 17em;
+    height: 17em;
     background: url('../images/custom-house.jpeg') no-repeat center center;
     border-radius: 50%;
     background-size: cover;
 }
 
 .image2 {
-    width: 19em;
-    height: 19em;
+    width: 17em;
+    height: 17em;
     background: url('../images/dublin-convention.jpg') no-repeat center center;
     border-radius: 20%;
     background-size: cover;
 }
 
 .image3 {
-    width: 19em;
-    height: 19em;
+    width: 17em;
+    height: 17em;
     background: url('../images/trinity.jpeg') no-repeat center center;
     border-radius: 50%;
     background-size: cover;
 }
 
 .image4 {
-    width: 19em;
-    height: 19em;
+    width: 17em;
+    height: 17em;
     background: url('../images/dublin-temple-image.jpg') no-repeat center center;
     border-radius: 20%;
     background-size: cover;
@@ -389,561 +389,126 @@ footer  {
 
 
 
+@media screen and (max-width: 950px) {
 
-
-
-
-
-@media screen and (max-width: 900px) {
-
-    * {
-        margin: 0;
-        padding: 0;
-        border: none;
-    }
-    
-    
-    body {
-        font-family: roboto;
-        font-weight: 200;
-        background-color: rgb(254, 254, 255);
-    }
-    
-    /* Headings and Logo */
-    
-    header {
-        height: 4em;
-        background-color: black;
-        width: 100%;
-    }
-    
-    h1 {
-        font-family: 'Roboto', sans-serif;
-        letter-spacing: 1px;
-        color: white;
-        text-transform: uppercase;
-    }
-    
-    #logo {
-        float: left;
-        font-size: 50%;
-        margin-top: 3vh;
-        margin-left: 1em;
-    }
-    
-    /* Navigation links */
-    
     #menu {
-        font-size: 40%;
-        letter-spacing: 1px;
-        line-height: 8em;
-        width: 100%;
-    }
-    
-    #menu li {
         float: right;
-        margin-right: 6em;
-        display: inline;
-    }
-    
-    #menu a {
-        text-decoration: none;
-        color: white;
-    }
-    
-    #menu a:hover {
-        border-bottom: 1px solid white;
-        color: rgb(245, 73, 6)
-    }
-    
-    .active {
-        border-bottom: 1px solid white;
-    }
-    
-    /* Images */
-    
-    #dublin-vista-outer {
-        width: 100%;
-        height: 12em;
-        overflow: hidden;
-    }
-    
-    
-    #dublin-vista {
-        height: 12em;
-        width: 100%;
-        background: url('../images/dublin-penny.webp') no-repeat center center;
-        background-size: cover;
-    
-    /* Animates zoom on page */
-    
-        animation-name: vista-zoom;
-        animation-duration: 5s;
-        animation-fill-mode: forwards;
-        overflow: hidden;
-    }
-    
-    .vista-heading {
-        color: white;
-        text-align: center;
-        font-size: 4vh;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    
-    
-    /* Creates a level of zoom in image */
-    
-    @keyframes vista-zoom {
-        from {
-            transform: scale(1);
-        }
-        to {
-            transform: scale(1.05);
-        }
-    }
-    
-    /* About Dublin City Walks */
-    
-    .dublin-welcome {
-        text-align: center;
-        color: red;
-        padding-top: 4em;
-        font-size: 150%;
-    }
-    
-    .parent {
-        height: 25vh;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        padding-right: 1em;
-    }
-    
-    .parent p {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 100%;
-        font-weight: 200;
-        color: black;
-    }
-    
-    .child1 {
-        display: flex;
-        width: 30%;
-        height: 30%;
-    }
-    
-    .child2 {
-        display: flex;
-        width: 30%;
-        height: 30%;  
-    }
-    
-    .child3 {
-        display: flex;
-        width: 30%;
-        height: 30%;
-    }
-    
+        margin-left: 2em;
+        line-height: 4em;
+        margin: auto;
+    } 
+
     .dublin-image {
-        height: 5em;
-        display: flex;
-        flex-direction: row;
+        height: 10em;
         justify-content: space-evenly;
-        padding-bottom: 2em;
+        padding-bottom: 4em;
+        padding-top: 6em;
     }
-    
     
     .image1 {
-        width: 7em;
-        height: 7em;
+        width: 10em;
+        height: 12em;
         background: url('../images/custom-house.jpeg') no-repeat center center;
         border-radius: 50%;
         background-size: cover;
     }
     
     .image2 {
-        width: 7em;
-        height: 7em;
-        background: url('../images/trinity.jpeg') no-repeat center center;
+        width: 10em;
+        height: 12em;
+        background: url('../images/dublin-convention.jpg') no-repeat center center;
         border-radius: 20%;
         background-size: cover;
     }
     
     .image3 {
-        width: 7em;
-        height: 7em;
-        background: url('../images/dublin-convention.jpg') no-repeat center center;
+        width: 10em;
+        height: 12em;
+        background: url('../images/trinity.jpeg') no-repeat center center;
         border-radius: 50%;
         background-size: cover;
     }
     
     .image4 {
-        width: 7em;
-        height: 7em;
+        width: 10em;
+        height: 12em;
         background: url('../images/dublin-temple-image.jpg') no-repeat center center;
+        border-radius: 20%;
+        background-size: cover;
+    }  
+    }
+    
+
+
+
+@media screen and (max-width: 620px) {
+    header {
+        height: 10em;
+        background-color: black;
+        width: 100%;
+     }
+     
+     #menu {
+        font-size: 8px;
+        width: 100%;
+
+    } 
+
+    .dublin-image {
+        height: 10em;
+        justify-content: space-evenly;
+        padding-bottom: 3em;
+        padding-top: 6em;
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+    
+    .image1 {
+        width: 8em;
+        height: 8em;
+        background: url('../images/custom-house.jpeg') no-repeat center center;
+        border-radius: 50%;
+        background-size: cover;
+    }
+    
+    .image2 {
+        width: 8em;
+        height: 8em;
+        background: url('../images/dublin-convention.jpg') no-repeat center center;
         border-radius: 20%;
         background-size: cover;
     }
     
-    footer  {
-        height: 18vh;
-        width: 100%;
-        background-color: black;
-        font-family: roboto;
-        color: white;
-        padding-top: 6em; 
-        position: sticky;  
+    .image3 {
+        width: 8em;
+        height: 8em;
+        background: url('../images/trinity.jpeg') no-repeat center center;
+        border-radius: 50%;
+        background-size: cover;
     }
     
-    .footer-bottom {
-        text-align: center;
-    }
-    
-    .footer-bottom > p {
-        padding: 1em;
-        font-size: 50%;
-    }
-    
-    .footer-content {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        color: white;
-    }
-    
-    .footer-content h4 {
-        color: white;
-        font-size: 90%;
-    }
-    
-    /* Social Links as part of Footer */
-    
-    .social-links {
-        color: white;
-        list-style: none;
-        align-items: center;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .social-links li {
-        margin: 0 1vh;
-        padding-bottom: 1vh;
-        padding-top: 1vh;
-    }
-    
-    .social-links a {
-        text-decoration: none;
-        color: white;
-        font-size: 80%;
-    }
-    
-    .social-links a:hover {
-        color: rgb(245, 73, 6);
-        transition: color 1s ease;
-    }
-    
-    section, .dublin-image {
-        min-height: calc(29vh - 10vh);
-    }
-    
-    /* Walks Page Image */
-    
-    .best-walks {
-        background: url('../images/poolbeg.jpg') no-repeat center center;
-        height: 400px;
-        width: 100%;
-    }
-    }
-    
+    .image4 {
+        width: 8em;
+        height: 8em;
+        background: url('../images/dublin-temple-image.jpg') no-repeat center center;
+        border-radius: 20%;
+        background-size: cover;
+    } 
 
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-@media all and (max-width: 600px) {
-
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 200;
-    background-color: rgb(254, 254, 255);
-}
-
-/* Headings and Logo */
-
-header {
-    height: 16vh;
-    background-color: black;
-    width: 100%;
-}
-
-h1 {
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 1px;
-    color: white;
-    text-transform: uppercase;
-}
-
-#logo {
-    font-size: 20%;
-    margin-top: 2vh;
-    margin-left: 1em;
-}
-
-/* Navigation links */
-
-#menu {
-    float: right;
-    font-size: 1vh;
-    letter-spacing: 2px;
-    line-height: 6vh;
-    width: 100%;
-    display: inline;
-}
-
-#menu li {
-    padding-right: 3em;
-}
-
-#menu a {
-    text-decoration: none;
-    color: white;
-}
-
-#menu a:hover {
-    border-bottom: 1px solid white;
-    color: rgb(245, 73, 6)
-}
-
-.active {
-    border-bottom: 1px solid white;
-}
-
-/* Images */
-
-#dublin-vista-outer {
-    width: 100%;
-    height: 12em;
-    overflow: hidden;
-}
-
-
-#dublin-vista {
-    height: 12em;
-    width: 100%;
-    background: url('../images/dublin-penny.webp') no-repeat center center;
-    background-size: cover;
-
-/* Animates zoom on page */
-
-    animation-name: vista-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    overflow: hidden;
-}
-
-.vista-heading {
-    color: white;
-    text-align: center;
-    font-size: 4vh;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-
-/* Creates a level of zoom in image */
-
-@keyframes vista-zoom {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.05);
-    }
-}
-
-/* About Dublin City Walks */
-
-.dublin-welcome {
-    text-align: center;
-    color: red;
-    padding-top: 2em;
-    font-size: 70%;
-}
 
 .parent {
-    height: 13vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-bottom: 3em;
     padding-right: 2em;
-    padding-top: 1em;
+    padding-top: 2vh;
 }
-
 
 .parent p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 40%;
-    font-weight: 200;
-    color: black;
-}
-
-.child1 {
-    display: flex;
-    width: 100%;
-    height: 40vh;
-}
-
-.child2 {
-    display: flex;
-    width: 100%;
-    height: 40vh;  
-}
-
-.child3 {
-    display: flex;
-    width: 100%;
-    height: 40vh;
-}
-
-.dublin-image {
-    height: 5em;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding-bottom: 3em;
-}
-
-
-.image1 {
-    width: 6em;
-    height: 6em;
-    background: url('../images/custom-house.jpeg') no-repeat center center;
-    border-radius: 50%;
-    background-size: cover;
-}
-
-.image2 {
-    width: 6em;
-    height: 6em;
-    background: url('../images/trinity.jpeg') no-repeat center center;
-    border-radius: 20%;
-    background-size: cover;
-}
-
-.image3 {
-    width: 6em;
-    height: 6em;
-    background: url('../images/dublin-convention.jpg') no-repeat center center;
-    border-radius: 50%;
-    background-size: cover;
-}
-
-.image4 {
-    width: 6em;
-    height: 6em;
-    background: url('../images/dublin-temple-image.jpg') no-repeat center center;
-    border-radius: 20%;
-    background-size: cover;
-}
-
-footer  {
-    height: 20vh;
-    width: 100%;
-    background-color: black;
-    font-family: roboto;
-    color: white;
-    padding-top: 1em; 
-    position: sticky;  
-}
-
-.footer-bottom {
-    text-align: center;
-}
-
-.footer-bottom > p {
-    padding: 1em;
-    font-size: 50%
-}
-
-.footer-content {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    color: white;
-}
-
-.footer-content h4 {
-    color: white;
-    font-size: 120%;
-}
-
-/* Social Links as part of Footer */
-
-.social-links {
-    color: white;
-    list-style: none;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-.social-links li {
-    margin: 0 1vh;
-    padding-bottom: 1vh;
-    padding-top: 1vh;
-}
-
-.social-links a {
-    text-decoration: none;
-    color: white;
     font-size: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0d0d0d; 
+
 }
 
-.social-links a:hover {
-    color: rgb(245, 73, 6);
-    transition: color 1s ease;
-}
 
-section, .dublin-image {
-    min-height: calc(20vh - 9vh);
-}
-
-/* Walks Page Image */
-
-.best-walks {
-    background: url('../images/poolbeg.jpg') no-repeat center center;
-    height: 400px;
-    width: 100%;
-}
 }
 
 
