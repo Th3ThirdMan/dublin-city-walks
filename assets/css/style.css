@@ -450,7 +450,7 @@ footer  {
 
 
 @media screen and (max-width: 1200px) {
-
+/*
     .dublin-image {
         height: 19em;
         display: flex;
@@ -458,31 +458,33 @@ footer  {
         justify-content: space-evenly;
         padding-bottom: 6em;
     }
+
+*/
     
     .image1 {
-        width: 15em;
-        height: 19em;
+        width: 13em;
+        height: 13em;
         background: url('../images/custom-house.jpeg') no-repeat center center;
         border-radius: 50%;
         background-size: cover;
     }
     
     .image2 {
-        width: 15em;
-        height: 19em;
+        width: 13em;
+        height: 13em;
         background: url('../images/dublin-convention.jpg') no-repeat center center;
         border-radius: 20%;
         background-size: cover;
     }
     
     .image3 {
-        width: 15em;
-        height: 19em;
+        width: 13em;
+        height: 13em;
         background: url('../images/trinity.jpeg') no-repeat center center;
         border-radius: 50%;
         background-size: cover;
     }
-    
+  /*  
     .image4 {
         width: 15em;
         height: 19em;
@@ -490,6 +492,7 @@ footer  {
         border-radius: 20%;
         background-size: cover;
     }
+    */
 }
 
 
@@ -499,19 +502,22 @@ footer  {
 
 
 @media screen and (max-width: 970px) {
-
+/*
     header {
         height: 12em;
         background-color: black;
         width: 100%;
      }
 
+     */
+
     #menu {
-        float: right;
-        margin-left: 2em;
+        float: left;
+        margin-bottom: 2em;
         line-height: 4em;
-        margin: auto;
     } 
+
+    /*
 
     .dublin-image {
         height: 10em;
@@ -519,10 +525,12 @@ footer  {
         padding-bottom: 4em;
         padding-top: 6em;
     }
+
+    */
     
     .image1 {
         width: 10em;
-        height: 12em;
+        height: 10em;
         background: url('../images/custom-house.jpeg') no-repeat center center;
         border-radius: 50%;
         background-size: cover;
@@ -530,27 +538,29 @@ footer  {
     
     .image2 {
         width: 10em;
-        height: 12em;
+        height: 10em;
         background: url('../images/dublin-convention.jpg') no-repeat center center;
-        border-radius: 20%;
+        border-radius: 50%;
         background-size: cover;
     }
     
     .image3 {
         width: 10em;
-        height: 12em;
+        height: 10em;
         background: url('../images/trinity.jpeg') no-repeat center center;
         border-radius: 50%;
         background-size: cover;
     }
     
+    /*
     .image4 {
         width: 10em;
         height: 12em;
         background: url('../images/dublin-temple-image.jpg') no-repeat center center;
         border-radius: 20%;
         background-size: cover;
-    }  
+    } 
+    */ 
     }
     
 
@@ -558,17 +568,13 @@ footer  {
 
 @media screen and (max-width: 620px) {
     
-    header {
-        height: 7em;
-        background-color: black;
-        width: 100%;
-     }
+
      
      #menu {
-         float: left;
-        font-size: 8px;
+        float: left;
         width: 100%;
-
+        margin-bottom: 1em;
+        line-height: 2em;
     } 
 
     #logo {
@@ -584,7 +590,22 @@ footer  {
         padding-top: 1em;
         padding-bottom: 2em;
         height: 1px;
-        font-size: 100%;
+        font-size: 130%;
+        }
+
+        .container p {
+            font-size: 2vh;
+            padding-top: 2vh;
+        }
+   
+        .container-two p {
+            font-size: 2vh;
+            padding-right: 2vh;
+        }
+   
+        .container-three p {
+            font-size: 2vh;
+            padding-left: 2vh;
         }
     
 
