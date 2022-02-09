@@ -424,16 +424,12 @@ footer  {
 
 
 @media screen and (max-width: 1200px) {
-/*
-    .dublin-image {
-        height: 19em;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        padding-bottom: 6em;
-    }
+    header {
+        height: 18em;
+        background-color: black;
+        width: 100%;
+     }
 
-*/
     
     .image1 {
         width: 13em;
@@ -458,15 +454,6 @@ footer  {
         border-radius: 50%;
         background-size: cover;
     }
-  /*  
-    .image4 {
-        width: 15em;
-        height: 19em;
-        background: url('../images/dublin-temple-image.jpg') no-repeat center center;
-        border-radius: 20%;
-        background-size: cover;
-    }
-    */
 }
 
 
@@ -476,14 +463,14 @@ footer  {
 
 
 @media screen and (max-width: 970px) {
-/*
+
     header {
         height: 12em;
         background-color: black;
         width: 100%;
      }
 
-     */
+     
 
     #menu {
         float: left;
@@ -491,16 +478,6 @@ footer  {
         line-height: 4em;
     } 
 
-    /*
-
-    .dublin-image {
-        height: 10em;
-        justify-content: space-evenly;
-        padding-bottom: 4em;
-        padding-top: 6em;
-    }
-
-    */
     
     .image1 {
         width: 10em;
@@ -525,16 +502,6 @@ footer  {
         border-radius: 50%;
         background-size: cover;
     }
-    
-    /*
-    .image4 {
-        width: 10em;
-        height: 12em;
-        background: url('../images/dublin-temple-image.jpg') no-repeat center center;
-        border-radius: 20%;
-        background-size: cover;
-    } 
-    */ 
     }
     
 
