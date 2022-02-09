@@ -9,17 +9,22 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 200;
-    background-color:rgb(254, 254, 255);
+    font-weight: 300;
+    /*background-color:rgb(254, 254, 255);*/
+    color: #3a3a3a;
+    background: black;
 }
 
 /* headings and logo */
 
+/*
 header {
     height: 10em;
     background-color: black;
     width: 100%;
 }
+
+*/
 
 h1 {
     font-family: 'Roboto', sans-serif;
@@ -30,9 +35,10 @@ h1 {
 
 #logo {
     float: left;
-    margin-left: 10vh;
+    /*margin-left: 10vh;*/
     font-size: 170%;
-    margin-top: 7vh;
+    /*margin-top: 7vh;*/
+    margin-left: 7vh;
 }
 
 /* navigation links */
@@ -41,13 +47,18 @@ h1 {
     font-size: 120%;
     letter-spacing: 2px;
     line-height: 8em;
-    width: 100%
+    width: 100%;
+}
+
+#menu, #logo {
+    line-height: 20vh;
 }
 
 #menu li {
     float: right;
+    list-style-type: none;
     margin-right: 4em;
-    display: inline;
+    /*display: inline;*/
 }
 
 #menu a {
@@ -116,22 +127,85 @@ h1 {
 .dublin-welcome {
     text-align: center;
     color: rgb(245, 73, 6);
-    padding-top: 2em;
+    padding-top: 1em;
     padding-bottom: 1em;
-    height: 1px;
-    font-size: 140%;
+    height: 3vh;
+    font-size: 150%;
+    background: white;
 }
 
-
+/*
 .parent {
-    height: 14em;
+    height: 12em;
     display: flex;
-    flex-direction: row;
+    background: white;
+    flex-flow: row;
     justify-content: space-around;
     padding-right: 2em;
     padding-top: 3em;
 }
 
+*/
+
+.container {
+    background: white;
+    height: 30vh;
+    width: 100%;
+}
+
+.container p {
+    font-size: 2.5vh;
+    font-family: roboto;
+    font-weight: 200;
+    color: black;
+    padding-left: 2em;
+}
+
+
+.container-two {
+    background: white;
+    height: 30vh;
+    width: 100%;
+    padding-top: 2em;
+}
+
+.container-two p {
+    font-size: 2.5vh;
+    font-family: roboto;
+    font-weight: 200;
+    color: black;
+    padding-right: 2em;
+}
+
+.container-three {
+    background: white;
+    height: 30vh;
+    width: 100%;
+    padding-top: 2em;
+    padding-bottom: 4em;
+}
+
+.container-three p {
+    font-size: 2.5vh;
+    font-family: roboto;
+    font-weight: 200;
+    color: black;
+    padding-left: 2em;
+}
+
+.main {
+    text-align: left;
+}
+
+.main-two {
+    text-align: right;
+}
+
+.main-three {
+    text-align: left;
+}
+
+/*
 .parent p {
     display: flex;
     font-size: 110%;
@@ -156,40 +230,47 @@ h1 {
     width: 30%;
     height: 30%;
 }
+*/
 
-
+/*
 .dublin-image {
     height: 17em;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding-bottom: 6em;
+    background: blue;
 }
 
+*/
+
 .image1 {
-    width: 17em;
-    height: 17em;
+    width: 16em;
+    height: 16em;
+    float: right;
     background: url('../images/custom-house.jpeg') no-repeat center center;
     border-radius: 50%;
     background-size: cover;
 }
 
 .image2 {
-    width: 17em;
-    height: 17em;
+    width: 16em;
+    height: 16em;
+    float: left;
     background: url('../images/dublin-convention.jpg') no-repeat center center;
-    border-radius: 20%;
-    background-size: cover;
-}
-
-.image3 {
-    width: 17em;
-    height: 17em;
-    background: url('../images/trinity.jpeg') no-repeat center center;
     border-radius: 50%;
     background-size: cover;
 }
 
+.image3 {
+    width: 16em;
+    height: 16em;
+    float: right;
+    background: url('../images/trinity.jpeg') no-repeat center center;
+    border-radius: 50%;
+    background-size: cover;
+}
+/*
 .image4 {
     width: 17em;
     height: 17em;
@@ -198,11 +279,12 @@ h1 {
     background-size: cover;
 }
 
+*/
 
 /* Footer Content */
 
 footer  {
-    height: 10em;
+    height: 12em;
     background-color: black;
     font-family: roboto;
     color: white;
