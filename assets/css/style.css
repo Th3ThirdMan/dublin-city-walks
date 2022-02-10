@@ -321,14 +321,13 @@ footer  {
     text-align: center;
 }
 
-.grand-canal-walk {
-    height: 30em;
-    background: url('../images/dublin-kavanagh.jpg') no-repeat center center;
-}
+    
+ div.grand-canal-walk {
+     height: 30em;
+ }
 
-.botanic-gardens {
+div.botanic-gardens {
     height: 30em;
-    background: url('../images/dublin-kavanagh.jpg') no-repeat center center;
 }
 /* Gallery */
 
@@ -361,24 +360,24 @@ footer  {
 .contact-us {
     height: 70vh;
     width: 45vh;
-    color: rgb(129, 32, 32);
+    color: black;
     font-weight: bold;
     background-color: rgba(252, 237, 225, 0.671);
     border: none;
     float: right;
     position: relative; 
-    right: 70vh;
+    right: 65vh;
     top: 15vh;
     opacity: 0.8;
     padding-top: 5vh;
     padding-left: 10vh;
-    padding-right: 10vh;
+    padding-right: 15vh;
    
 }
 
 .contact-us h2 {
     text-align: center;
-    color: rgb(129, 32, 32);
+    color: black;
 }
 
 #subject {
@@ -405,7 +404,7 @@ footer  {
     padding: 2vh 4vh 2vh 4vh;
     text-align: center;
     font-size: 100%;
-    background-color: rgb(129, 32, 32);
+    background-color: black;
     color: white;
     display: block;
     position: relative;
