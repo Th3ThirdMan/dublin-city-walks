@@ -133,7 +133,20 @@ h1 {
     height: 3vh;
     font-size: 150%;
     background: white;
+    text-decoration: underline;
 }
+
+.dublin-welcome-walks {
+    text-align: center;
+    color: rgb(245, 73, 6);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    height: 3vh;
+    font-size: 150%;
+    background: white;
+
+}
+
 
 .container {
     background: white;
@@ -313,21 +326,35 @@ footer  {
     text-align: center;
 }
 
-.best-walks-top {
-    text-align: center;
-}
-
-.great-walks {
+.dublin-welcome {
+    height: 3em;
     text-align: center;
 }
 
     
- div.grand-canal-walk {
+ .grand-canal-walk {
      height: 30em;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
  }
 
-div.botanic-gardens {
+ .botanic-gardens {
     height: 30em;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+}
+
+.killiney-hill {
+    height: 30em;
+    display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+     background-size: contain;
 }
 /* Gallery */
 
