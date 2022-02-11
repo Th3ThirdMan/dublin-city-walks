@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 .navbar {
@@ -15,8 +16,8 @@
 }
 
 .dublin-title {
-    font-size: 1.5rem;
-    margin: .5rem;
+    font-size: 2em;
+    margin: .5em;
 }
 
 .navbar-links ul {
@@ -40,18 +41,18 @@
     background-color: grey;
 }
 
-.toggle-button {
+.nav-button {
     position: absolute;
     top: .75rem;
     right: 1rem;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: space-between;
     width: 30px;
     height: 20px;
 }
 
-.toggle-button .bar {
+.nav-button .bar {
     height: 3px;
     width: 100%;
     background-color: white;
@@ -60,16 +61,14 @@
 
 
 @media (max-width: 400px) {
-    .toggle-button {
+    .nav-button {
         display: flex;
     }
 
     .navbar-links {
-       display: none;
+       /*display: none;*/
        width: 100%;
     }
-
-    
 
     .navbar {
         flex-direction: column;
