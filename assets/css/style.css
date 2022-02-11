@@ -33,12 +33,13 @@
 .navbar-links li a {
     text-decoration: none;
     color: white;
-    padding: 1rem;
+    padding: 1em;
     display: block;
 }
 
 .navbar-links li:hover {
-    background-color: grey;
+    border-bottom: 1px solid white;
+    color: rgb(245, 73, 6)
 }
 
 .nav-button {
@@ -60,7 +61,7 @@
 }
 
 
-@media (max-width: 400px) {
+@media (max-width: 650px) {
     .nav-button {
         display: flex;
     }
@@ -90,6 +91,7 @@
 
     .navbar-links .active {
         display: flex;
+        border-bottom: 1px solid white;
     }
 }
 
@@ -330,16 +332,7 @@ h1 {
     border-radius: 50%;
     background-size: cover;
 }
-/*
-.image4 {
-    width: 17em;
-    height: 17em;
-    background: url('../images/dublin-temple-image.jpg') no-repeat center center;
-    border-radius: 20%;
-    background-size: cover;
-}
 
-*/
 
 /* Footer Content */
 
@@ -420,36 +413,61 @@ footer  {
     text-align: center;
 }
 
-.dublin-welcome {
-    height: 3em;
+.dublin-welcome-walks {
+    height: 10em;
     text-align: center;
 }
 
     
  .grand-canal-walk {
-     height: 30em;
+     height: 34em;
      display: block;
      margin-left: auto;
      margin-right: auto;
      width: 50%;
+     background-size: contain;
+ }
+
+ div p {
+    font-size: 2.4vh;
+    font-family: roboto;
+    font-weight: 200;
+    color: black;
+    padding-left: 4em;
+    margin-bottom: 5em;
  }
 
  .botanic-gardens {
-    height: 30em;
+    height: 34em;
      display: block;
      margin-left: auto;
      margin-right: auto;
      width: 50%;
+     background-size: contain;
 }
 
+/*
 .killiney-hill {
-    height: 30em;
+    height: 10em;
+    width: 10em;
     display: block;
      margin-left: auto;
      margin-right: auto;
      width: 50%;
      background-size: contain;
 }
+
+*/
+
+.great-south-wall-walk {
+    height: 34em;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+     background-size: contain;
+}
+
 /* Gallery */
 
 #photos {
