@@ -14,22 +14,7 @@
 </head>
 
 <body>
-    <!--
-    <ul class="menu">
-        <li><a class="menuItem" href="#">Home</a></li>
-        <li><a class="menuItem" href="#">Profile</a></li>
-        <li><a class="menuItem" href="#">About</a></li>
-        <li><a class="menuItem" href="#">Contacts</a></li>
-      </ul>
-      <button class="hamburger">
-        <!-- material icons https://material.io/resources/icons/
-        <i class="menuIcon material-icons">menu</i>
-        <i class="closeIcon material-icons">close</i>
-      </button>
-    -->
-
-
-    
+    <script src="assets/js/script.js"></script>
     <nav class="navbar">
         <div class="dublin-title">Dublin City Walks</div>
         <a href="#" class="nav-button">
@@ -53,36 +38,8 @@
                 </li>
             </ul>
         </div>
+    </div>
     </nav>
-
-    <!--
-    
-    <header>
-        <a href="index.html">
-            <h1 id="logo">Dublin City Walks <i class="fas fa-walking"></i></h1>
-        </a>
-        <nav>
-            <ul id="menu">
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-
-                <li>
-                    <a href="gallery.html">Gallery</a>
-                </li>
-
-                <li>
-                    <a href="walks.html">Walks</a>
-                </li>
-
-                <li>
-                    <a href="index.html" class="active">Home</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    -->
-
 
     <section id="dublin-vista-outer">
         <div id="dublin-vista">
@@ -162,28 +119,6 @@
             <p>Copyright &copy;2022 Dublin City Walks</p>
         </div>
     </footer>
-
-<script>
-    const menu = document.querySelector(".menu");
-    const menuItems = document.querySelectorAll(".menuItem");
-    const hamburger= document.querySelector(".hamburger");
-    const closeIcon= document.querySelector(".closeIcon");
-    const menuIcon = document.querySelector(".menuIcon");
-    
-    function toggleMenu() {
-      if (menu.classList.contains("showMenu")) {
-        menu.classList.remove("showMenu");
-        closeIcon.style.display = "none";
-        menuIcon.style.display = "block";
-      } else {
-        menu.classList.add("showMenu");
-        closeIcon.style.display = "block";
-        menuIcon.style.display = "none";
-      }
-    }
-    
-    hamburger.addEventListener("click", toggleMenu);
-</script>
 </body>
 
 <!-- font awesome script -->

@@ -7,6 +7,12 @@
     box-sizing: border-box;
 }
 
+
+
+/* Headings, logo & Navigation */
+
+
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -72,74 +78,7 @@ body {
     color: #3a3a3a;
 }
 
-/* headings and logo */
 
-/*
-header {
-    height: 10em;
-    background-color: black;
-    width: 100%;
-}
-
-
-h1 {
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 1px;
-    color: white;
-    text-transform: uppercase;
-}
-*/
-
-/*
-#logo {
-    float: left;
-    /*margin-left: 10vh;*/
-
-    /*
-    font-size: 170%;
-    /*margin-top: 7vh;*/
-
-    /*
-    margin-left: 7vh;
-}
-
-
-/* navigation links */
-/*
-#menu {
-    font-size: 120%;
-    letter-spacing: 2px;
-    line-height: 8em;
-    width: 100%;
-}
-
-#menu, #logo {
-    line-height: 20vh;
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 4em;
-    /*display: inline;*/
-
-    /*
-}
-
-#menu a {
-    text-decoration: none;
-    color: white;
-}
-
-#menu a:hover {
-    border-bottom: 1px solid white;
-    color: rgb(245, 73, 6)
-}
-
-.active {
-    border-bottom: 1px solid white;
-}
-*/
 
 /* Images */
 
@@ -176,7 +115,9 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
+
 /* Creates a level of zoom in image */
+
 
 @keyframes vista-zoom {
     from {
@@ -190,6 +131,7 @@ h1 {
 
 
 /* About Dublin City Walks */
+
 
 .dublin-welcome {
     text-align: center;
@@ -340,6 +282,7 @@ footer  {
     font-size: 130%;
 }
 
+
 /* Social Links as part of Footer*/
 
 .social-links {
@@ -368,6 +311,8 @@ footer  {
     color: rgb(245, 73, 6);
     transition: color 1s ease;
 }
+
+
 
 
 
@@ -437,6 +382,8 @@ footer  {
      background-size: contain;
 }
 
+
+
 /* Gallery */
 
 #photos {
@@ -451,6 +398,8 @@ footer  {
 #photos > img {
     width: 100%;
 }
+
+
 
 
 /* Contact Page */
@@ -520,39 +469,8 @@ footer  {
     border: 1px white solid;
 }
 
-.hamburger {
-    position: fixed;
-  z-index: 100;
-  top: 1rem;
-  right: 1rem;
-  padding: 4px;
-  border: black solid 1px;
-  background: white;
-  cursor: pointer;
-}
 
-.closeIcon {
-    display: none;
-  }
 
-  .menu {
-    position: fixed;
-    transform: translateY(-100%);
-    transition: transform 0.2s;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 99;
-    background: black;
-    color: white;
-    list-style: none;
-    padding-top: 4rem;
-  }
-
-  .showMenu {
-    transform: translateY(0);
-  }
 
 
 
@@ -652,22 +570,78 @@ footer  {
    font-weight: 200;
    color: black;
 }
+}
 
-.image2 {
-       width: 11em;
-       height: 11em;
-       background: url('../images/dublin-convention.jpg') no-repeat center center;
-       border-radius: 20%;
-       background-size: cover;
+
+
+
+   @media screen and (max-width: 750px) {
+    
+
+     
+  
+
+    .dublin-welcome {
+        text-align: center;
+        color: rgb(245, 73, 6);
+        padding-top: 1em;
+        padding-bottom: 2em;
+        height: 1px;
+        font-size: 130%;
+        }
+
+    .container {
+    background: white;
+    height: 35vh;
+    width: 95%;
+}
+
+.container p {
+    font-size: 2vh;
+    font-family: roboto;
+    font-weight: 200;
+    color: black;
+    padding-left: 3em;
+}
+
+
+.container-two {
+    background: white;
+    height: 40vh;
+    width: 95%;
+    padding-top: 2em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.container-two p {
+    font-size: 2vh;
+    font-family: roboto;
+    font-weight: 200;
+    color: black;
+}
+
+.container-three {
+    background: white;
+    height: 50vh;
+    width: 95%;
+    padding-bottom: 4em;
+}
+
+.container-three p {
+    font-size: 2vh;
+    font-family: roboto;
+    font-weight: 200;
+    color: black;
+}
    }
 
-.image3 {
-       width: 11em;
-       height: 11em;
-       background: url('../images/trinity.jpeg') no-repeat center center;
-       border-radius: 50%;
-       background-size: cover;
-   }
+
+    
+
+
+
+
 
 
 @media screen and (max-width: 620px) {
@@ -1006,7 +980,6 @@ footer  {
         border-bottom: 1px solid white;
     }
 }
-}  
   
 
     
