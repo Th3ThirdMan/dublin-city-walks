@@ -328,7 +328,7 @@ footer  {
 }
 
 .dublin-welcome-walks {
-    height: 10em;
+    height: 7em;
     text-align: center;
 }
 
@@ -342,14 +342,17 @@ footer  {
      background-size: contain;
  }
 
- div p {
+ .grand-canal-text {
     font-size: 2.4vh;
     font-family: roboto;
     font-weight: 200;
     color: black;
+    padding-top: 2px;
     padding-left: 4em;
-    margin-bottom: 5em;
+    padding-right: 4em;
+    margin-bottom: 2em;
  }
+
 
  .botanic-gardens {
     height: 34em;
@@ -360,10 +363,19 @@ footer  {
      background-size: contain;
 }
 
-/*
-.killiney-hill {
-    height: 10em;
-    width: 10em;
+.botanic-gardens-text {
+    font-size: 2.4vh;
+    font-family: roboto;
+    font-weight: 200;
+    color: black;
+    padding-left: 4em;
+    padding-right: 4em;
+    margin-bottom: 2em;
+}
+
+
+.dublin-killiney {
+    height: 34em;
     display: block;
      margin-left: auto;
      margin-right: auto;
@@ -371,7 +383,17 @@ footer  {
      background-size: contain;
 }
 
-*/
+.dublin-killiney-text {
+    font-size: 2.4vh;
+    font-family: roboto;
+    font-weight: 200;
+    color: black;
+    padding-left: 4em;
+    padding-right: 4em;
+    margin-bottom: 2em;
+}
+
+
 
 .great-south-wall-walk {
     height: 34em;
@@ -379,8 +401,41 @@ footer  {
      margin-left: auto;
      margin-right: auto;
      width: 50%;
-     background-size: contain;
 }
+
+.great-south-wall-walk-text {
+    font-size: 2.4vh;
+    font-family: roboto;
+    font-weight: 200;
+    color: black;
+    padding-left: 4em;
+    padding-right: 4em;
+    margin-bottom: 2em;
+}
+
+.dublin-phoenixwalk {
+    height: 34em;
+    width: 65%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+ .dublin-phoenixwalk-text {
+    font-size: 2.4vh;
+    font-family: roboto;
+    font-weight: 200;
+    color: black;
+    padding-top: 7em;
+    padding-left: 4em;
+    padding-right: 4em;
+    margin-bottom: 7em;
+ }
+
+ .dublin-questions {
+     text-align: center;
+     margin-bottom: 3em;
+ }
 
 
 
@@ -414,17 +469,17 @@ footer  {
     
 }
 
-.contact-us {
+.contact-info {
     height: 70vh;
-    width: 45vh;
+    width: 35%;
     color: black;
     font-weight: bold;
     background-color: rgba(252, 237, 225, 0.671);
     border: none;
     float: right;
     position: relative; 
-    right: 65vh;
-    top: 15vh;
+    right: 32%;
+    top: 15%;
     opacity: 0.8;
     padding-top: 5vh;
     padding-left: 10vh;
@@ -507,6 +562,25 @@ footer  {
         border-radius: 50%;
         background-size: cover;
     }
+
+
+.contact-us {
+    height: 70vh;
+    width: 35%;
+    color: black;
+    font-weight: bold;
+    background-color: rgba(252, 237, 225, 0.671);
+    border: none;
+    float: right;
+    position: relative; 
+    right: 32%;
+    top: 15%;
+    opacity: 0.8;
+    padding-top: 5vh;
+    padding-left: 10vh;
+    padding-right: 15vh;
+   
+}
 }
 
 
