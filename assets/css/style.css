@@ -50,7 +50,7 @@
 .navbar-links li:hover {
     border-bottom: 1px solid white;
 }
-
+/*
 .nav-button {
     position: absolute;
     top: .75rem;
@@ -68,7 +68,7 @@
     background-color: white;
     border-radius: 10px;
 }
-
+*/
 
 
 body {
@@ -550,8 +550,8 @@ footer  {
     .image2 {
         width: 13em;
         height: 13em;
-        background: url('../images/dublin-convention.jpg') no-repeat center center;
-        border-radius: 20%;
+        background: url('../images/stephens-green.jpeg') no-repeat center center;
+        border-radius: 50%;
         background-size: cover;
     }
     
@@ -708,7 +708,39 @@ footer  {
     font-weight: 200;
     color: black;
 }
+
+.navbar-links {
+    display: flex;
+    width: 100%;
+    padding-bottom: 2em;
+ }
+
+ .navbar {
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .navbar-links ul {
+     width: 100%;
+     flex-direction: column;
+ }
+
+ .navbar-links li {
+     text-align: center;
+     justify-content: center;
+ }
+/*
+ .navbar-links li a {
+     padding: .5rem 1rem;
+ }
+
    }
+
+ .navbar-links .active {
+     display: flex;
+ }
+ */
+
 
 
     
@@ -782,8 +814,8 @@ footer  {
     .image2 {
         width: 8em;
         height: 8em;
-        background: url('../images/dublin-convention.jpg') no-repeat center center;
-        border-radius: 20%;
+        background: url('../images/stephens-green.jpeg') no-repeat center center;
+        border-radius: 50%;
         background-size: cover;
     }
     
@@ -795,46 +827,37 @@ footer  {
         background-size: cover;
     }
     
-    .image4 {
-        width: 8em;
-        height: 8em;
-        background: url('../images/dublin-temple-image.jpg') no-repeat center center;
-        border-radius: 20%;
-        background-size: cover;
-    } 
 
     
-    .nav-button {
-        display: flex;
-    }
-
     .navbar-links {
-       display: none;
-       width: 100%;
-    }
-
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .navbar-links ul {
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .navbar-links li {
-        text-align: center;
-    }
-
-    .navbar-links li a {
-        padding: .5rem 1rem;
-    }
-
-    .navbar-links .active {
         display: flex;
-        border-bottom: 1px solid white;
-    }
+        width: 100%;
+        padding-bottom: 2em;
+     }
+ 
+     .navbar {
+         flex-direction: column;
+         align-items: flex-start;
+     }
+ 
+     .navbar-links ul {
+         width: 100%;
+         flex-direction: column;
+     }
+ 
+     .navbar-links li {
+         text-align: center;
+     }
+ /*
+     .navbar-links li a {
+         padding: .5rem 1rem;
+     }
+ 
+     .navbar-links .active {
+         display: flex;
+     }
+}
+*/
 }
 
 
@@ -850,6 +873,104 @@ footer  {
 
      
   
+
+    .dublin-welcome {
+        text-align: center;
+        color: rgb(245, 73, 6);
+        padding-top: 1em;
+        padding-bottom: 2em;
+        height: 1px;
+        font-size: 130%;
+        }
+
+    .container {
+    background: white;
+    height: 35vh;
+    width: 95%;
+}
+
+.container p {
+    font-size: 2vh;
+    font-family: roboto;
+    font-weight: 200;
+    color: black;
+    padding-left: 3em;
+}
+
+
+.container-two {
+    background: white;
+    height: 40vh;
+    width: 95%;
+    padding-top: 2em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.container-two p {
+    font-size: 2vh;
+    font-family: roboto;
+    font-weight: 200;
+    color: black;
+}
+
+.container-three {
+    background: white;
+    height: 45vh;
+    width: 95%;
+    padding-bottom: 4em;
+}
+
+.container-three p {
+    font-size: 2vh;
+    font-family: roboto;
+    font-weight: 200;
+    color: black;
+}
+
+
+    
+.navbar-links {
+    display: flex;
+    width: 100%;
+    padding-bottom: 2em;
+ }
+
+ .navbar {
+     flex-direction: column;
+     align-items: flex-start;
+ }
+
+ .navbar-links ul {
+     width: 100%;
+     flex-direction: column;
+ }
+
+ .navbar-links li {
+     text-align: center;
+ }
+
+ /*
+
+ .navbar-links li a {
+     padding: .5rem 1rem;
+ }
+
+ .navbar-links .active {
+     display: flex;
+ }
+}
+*/
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 400px) {
+    
 
     .dublin-welcome {
         text-align: center;
@@ -893,106 +1014,7 @@ footer  {
 
 .container-three {
     background: white;
-    height: 50vh;
-    width: 95%;
-    padding-bottom: 4em;
-}
-
-.container-three p {
-    font-size: 2vh;
-    font-family: roboto;
-    font-weight: 200;
-    color: black;
-}
-
-
-    
-    .nav-button {
-        display: flex;
-    }
-
-    .navbar-links {
-       display: none;
-       width: 100%;
-    }
-
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .navbar-links ul {
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .navbar-links li {
-        text-align: center;
-    }
-
-    .navbar-links li a {
-        padding: .5rem 1rem;
-    }
-
-    .navbar-links .active {
-        display: flex;
-        border-bottom: 1px solid white;
-    }
-}
-
-
-
-
-
-
-
-
-@media screen and (max-width: 400px) {
-    
-
-    .dublin-welcome {
-        text-align: center;
-        color: rgb(245, 73, 6);
-        padding-top: 1em;
-        padding-bottom: 2em;
-        height: 1px;
-        font-size: 130%;
-        }
-
-    .container {
-    background: white;
-    height: 50vh;
-    width: 95%;
-}
-
-.container p {
-    font-size: 2vh;
-    font-family: roboto;
-    font-weight: 200;
-    color: black;
-    padding-left: 3em;
-}
-
-
-.container-two {
-    background: white;
-    height: 65vh;
-    width: 95%;
-    padding-top: 2em;
-    padding-right: 1em;
-    padding-left: 1em;
-}
-
-.container-two p {
-    font-size: 2vh;
-    font-family: roboto;
-    font-weight: 200;
-    color: black;
-}
-
-.container-three {
-    background: white;
-    height: 60vh;
+    height: 55vh;
     width: 95%;
     padding-bottom: 4em;
 }
@@ -1007,7 +1029,7 @@ footer  {
 .image2 {
         width: 11em;
         height: 11em;
-        background: url('../images/dublin-convention.jpg') no-repeat center center;
+        background: url('../images/stephens-green.jpeg') no-repeat center center;
         border-radius: 20%;
         background-size: cover;
     }
@@ -1022,13 +1044,12 @@ footer  {
 
 
     
-    .nav-button {
-        display: flex;
-    }
+    
 
     .navbar-links {
-       display: none;
+       display: flex;
        width: 100%;
+       padding-bottom: 2em;
     }
 
     .navbar {
@@ -1044,16 +1065,19 @@ footer  {
     .navbar-links li {
         text-align: center;
     }
-
+}
+/*
     .navbar-links li a {
         padding: .5rem 1rem;
     }
 
     .navbar-links .active {
         display: flex;
-        border-bottom: 1px solid white;
     }
 }
+*/
+   }
+
   
 
     
