@@ -906,6 +906,27 @@ footer  {
         padding-left: 1em;
     }
 
+
+    .grand-canal-walk {
+        background: url('../images/dublin-kavanagh.jpg') no-repeat center center;
+         height: 40vh;
+         width: 100%;
+         
+     }
+    
+    .grand-canal-text {
+        font-size: 2.6vh;
+        line-height: 23px;
+       font-family: Helvetica, sans-serif;
+       font-weight: 200;
+       color: black;
+       padding-top: 1em;
+       padding-left: 3em;
+       padding-right: 3em;
+       padding-bottom: 1em;
+    }
+    
+
     
     .image1 {
         width: 8em;
@@ -1061,6 +1082,25 @@ footer  {
     color: black;
 }
 
+.grand-canal-walk {
+    background: url('../images/dublin-kavanagh.jpg') no-repeat center center;
+     height: 40vh;
+     width: 100%;
+     
+ }
+
+.grand-canal-text {
+    font-size: 2.4vh;
+    line-height: 23px;
+   font-family: Helvetica, sans-serif;
+   font-weight: 200;
+   color: black;
+   padding-top: 1em;
+   padding-left: 3em;
+   padding-right: 3em;
+   padding-bottom: 1em;
+}
+
 
     
 .navbar-links {
@@ -1179,6 +1219,25 @@ footer  {
         background: url('../images/trinity.jpeg') no-repeat center center;
         border-radius: 50%;
         background-size: cover;
+    }
+
+    .grand-canal-walk {
+        background: url('../images/dublin-kavanagh.jpg') no-repeat center center;
+         height: 40vh;
+         width: 100%;
+         
+     }
+    
+    .grand-canal-text {
+        font-size: 2.4vh;
+        line-height: 23px;
+       font-family: Helvetica, sans-serif;
+       font-weight: 200;
+       color: black;
+       padding-top: 1em;
+       padding-left: 3em;
+       padding-right: 3em;
+       padding-bottom: 1em;
     }
 
 
