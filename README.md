@@ -1,4 +1,4 @@
-Dublin City Walks
+##Dublin City Walks
 
 The Dublin City Walks website is an information resource created for those who the leisurely pursuits of walking and would like to know a little bit more about where are the best places to walk within the confines of Dublin City. 
 
