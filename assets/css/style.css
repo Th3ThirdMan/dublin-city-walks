@@ -21,8 +21,8 @@
 }
 
 .dublin-title {
-    font-size: 2em;
-    margin: 2em;
+    font-size: 1em;
+    margin: 2em 0;
 }
 
 .navbar-links ul {
@@ -43,7 +43,7 @@
 }
 
 .navbar-links li a:hover {
-    color:rgb(245, 73, 6);
+    color: rgb(245, 73, 6);
 }
 
 .navbar-links li:hover {
@@ -74,7 +74,7 @@ body {
     height: 28em;
     width: 100%;
     background: url('../images/dublin-penny.webp') no-repeat center center;
-    
+
 
     /* Animates zoom on page */
 
@@ -103,6 +103,7 @@ body {
     from {
         transform: scale(1);
     }
+
     to {
         transform: scale(1.05);
     }
@@ -224,7 +225,7 @@ hr {
 
 /* Footer Content */
 
-footer  {
+footer {
     height: 12em;
     background-color: black;
     font-family: roboto;
@@ -239,7 +240,7 @@ footer  {
 }
 
 
-.footer-bottom > p {
+.footer-bottom>p {
     padding-top: 30px;
 }
 
@@ -316,143 +317,143 @@ footer  {
 
 .grand-canal-walk {
     background: url('../images/dublin-kavanagh.jpg') no-repeat center center;
-     height: 80vh;
-     width: 100%;
-     text-align: center;
-     font-size: 2.6vh;
-     font-weight: 800;
-     padding-top: 2em;
-     color: white;   
- }
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+    font-size: 2.6vh;
+    font-weight: 800;
+    padding-top: 2em;
+    color: white;
+}
 
 .grand-canal-text {
     font-size: 2.4vh;
     line-height: 23px;
-   font-family: Helvetica, sans-serif;
-   font-weight: 200;
-   color: white;
-   padding-top: 1em;
-   padding-left: 3em;
-   padding-right: 3em;
-   padding-bottom: 2em;
+    font-family: Helvetica, sans-serif;
+    font-weight: 200;
+    color: white;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
 }
 
 
 .botanic-gardens {
     background: url('../images/dublin-botanic.jpg') no-repeat center center;
-     height: 80vh;
-     width: 100%;
-     padding-bottom: 1em;
-     text-align: center;
-     font-size: 2.6vh;
-     font-weight: 800;
-     padding-top: 1em;
-     color: white;
+    height: 80vh;
+    width: 100%;
+    padding-bottom: 1em;
+    text-align: center;
+    font-size: 2.6vh;
+    font-weight: 800;
+    padding-top: 1em;
+    color: white;
 }
 
- .botanic-gardens-text {
+.botanic-gardens-text {
     font-size: 2.4vh;
     line-height: 23px;
-   font-family: Helvetica, sans-serif;
-   font-weight: 200;
-   color: white;
-   padding-left: 3em;
-   padding-right: 3em;
-   padding-bottom: 3em;
+    font-family: Helvetica, sans-serif;
+    font-weight: 200;
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
 }
 
 .dublin-killiney {
     background: url('../images/dublin-killiney.jpg') no-repeat center center;
-     height: 80vh;
-     width: 100%;
-     padding-bottom: 1em;
-     text-align: center;
-     font-size: 2.6vh;
-     font-weight: 800;
-     padding-top: 2em;
-     color: white;
+    height: 80vh;
+    width: 100%;
+    padding-bottom: 1em;
+    text-align: center;
+    font-size: 2.6vh;
+    font-weight: 800;
+    padding-top: 2em;
+    color: white;
 }
 
 .dublin-killiney-text {
     font-size: 2.4vh;
     line-height: 23px;
-   font-family: Helvetica, sans-serif;
-   font-weight: 200;
-   color: white;
-   padding-left: 3em;
-   padding-right: 3em;
-   padding-bottom: 4em;
+    font-family: Helvetica, sans-serif;
+    font-weight: 200;
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 2em;
 }
 
 
 .great-south-walk {
     background: url('../images/dublin-great-south.webp') no-repeat center center;
-     height: 80vh;
-     width: 100%;
-     padding-bottom: 3em;
-     text-align: center;
-     font-size: 2.6vh;
-     font-weight: 800;
-     padding-top: 2em;
-     color: white;
+    height: 80vh;
+    width: 100%;
+    padding-bottom: 3em;
+    text-align: center;
+    font-size: 2.6vh;
+    font-weight: 800;
+    padding-top: 2em;
+    color: white;
 }
 
 
 .great-south-text {
     font-size: 2.4vh;
     line-height: 23px;
-   font-family: Helvetica, sans-serif;
-   font-weight: 200;
-   color: white;
-   padding-top: 1em;
-   padding-left: 3em;
-   padding-right: 3em;
-   padding-bottom: 4em;
+    font-family: Helvetica, sans-serif;
+    font-weight: 200;
+    color: white;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 2em;
 }
 
 
 .dublin-park-phoenix {
     background: url('../images/dublin-park-phoenix.webp') no-repeat center center;
-     height: 80vh;
-     width: 100%;
-     padding-bottom: 7em;
-     text-align: center;
-     font-size: 2.6vh;
-     font-weight: 800;
-     padding-top: 2em;   
-     color: white; 
+    height: 80vh;
+    width: 100%;
+    padding-bottom: 7em;
+    text-align: center;
+    font-size: 2.6vh;
+    font-weight: 800;
+    padding-top: 2em;
+    color: white;
 }
 
 
 .dublin-park-text {
     font-size: 2.4vh;
     line-height: 23px;
-   font-family: Helvetica, sans-serif;
-   font-weight: 200;
-   color: white;
-   padding-top: 1em;
-   padding-left: 3em;
-   padding-right: 3em;
-   padding-bottom: 3em;
+    font-family: Helvetica, sans-serif;
+    font-weight: 200;
+    color: white;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 2em;
 }
 
 
 
- .dublin-questions {
-     text-align: center;
-     margin-bottom: 3em;
-     padding-top: 3em;
-     color: white;
- }
+.dublin-questions {
+    text-align: center;
+    margin-bottom: 3em;
+    padding-top: 3em;
+    color: white;
+}
 
- .dublin-questions-contact {
-     text-align: left;
-     margin-bottom: 3em;
-     padding-top: 3em;
-     color: #fcfcfc;
-     font-size: 130%;
-     
- }
+.dublin-questions-contact {
+    text-align: left;
+    margin-bottom: 3em;
+    padding-top: 3em;
+    color: #fcfcfc;
+    font-size: 130%;
+
+}
 
 
 
@@ -467,7 +468,7 @@ footer  {
     background: #555454;
 }
 
-#photos > img {
+#photos>img {
     width: 100%;
 }
 
@@ -516,7 +517,7 @@ footer  {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color:rgb(54, 184, 228);
+    background-color: rgb(54, 184, 228);
     color: black;
     display: block;
 }
@@ -536,7 +537,7 @@ footer  {
 
 
 @media screen and (max-width: 1200px) {
-    
+
     .image1 {
         width: 13em;
         height: 13em;
@@ -544,7 +545,7 @@ footer  {
         border-radius: 50%;
         background-size: cover;
     }
-    
+
     .image2 {
         width: 13em;
         height: 13em;
@@ -552,7 +553,7 @@ footer  {
         border-radius: 50%;
         background-size: cover;
     }
-    
+
     .image3 {
         width: 13em;
         height: 13em;
@@ -569,8 +570,8 @@ footer  {
 
 
 @media screen and (max-width: 1000px) {
-    
-    
+
+
     .vista-heading {
         color: white;
         text-align: center;
@@ -580,65 +581,65 @@ footer  {
         left: 50%;
         transform: translate(-50%, -50%);
     }
-  
+
     .dublin-welcome {
-       text-align: center;
-       color: rgb(245, 73, 6);
-       padding-top: 1em;
-       padding-bottom: 2em;
-       height: 1px;
-       font-size: 130%;
-       }
+        text-align: center;
+        color: rgb(245, 73, 6);
+        padding-top: 1em;
+        padding-bottom: 2em;
+        height: 1px;
+        font-size: 130%;
+    }
 
-   .container {
-   background: #fcfcfc;
-   height: 35vh;
-   width: 100%;
+    .container {
+        background: #fcfcfc;
+        height: 35vh;
+        width: 100%;
+    }
+
+    .container p {
+        font-size: 2.5vh;
+        font-family: roboto;
+        font-weight: 200;
+        color: black;
+        padding-left: 3em;
+    }
+
+
+    .container-two {
+        background: #fcfcfc;
+        height: 40vh;
+        padding-top: 2em;
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+
+    .container-two p {
+        font-size: 2.5vh;
+        font-family: roboto;
+        font-weight: 200;
+        color: black;
+    }
+
+    .container-three {
+        background: #fcfcfc;
+        height: 50vh;
+        padding-bottom: 4em;
+    }
+
+    .container-three p {
+        font-size: 2.5vh;
+        font-family: roboto;
+        font-weight: 200;
+        color: black;
+    }
 }
 
-.container p {
-   font-size: 2.5vh;
-   font-family: roboto;
-   font-weight: 200;
-   color: black;
-   padding-left: 3em;
-}
-
-
-.container-two {
-   background: #fcfcfc;
-   height: 40vh;
-   padding-top: 2em;
-   padding-right: 1em;
-   padding-left: 1em;
-}
-
-.container-two p {
-   font-size: 2.5vh;
-   font-family: roboto;
-   font-weight: 200;
-   color: black;
-}
-
-.container-three {
-   background: #fcfcfc;
-   height: 50vh;
-   padding-bottom: 4em;
-}
-
-.container-three p {
-   font-size: 2.5vh;
-   font-family: roboto;
-   font-weight: 200;
-   color: black;
-}
-}
 
 
 
+@media screen and (max-width: 750px) {
 
-   @media screen and (max-width: 750px) {
-    
 
     .vista-heading {
         color: white;
@@ -649,7 +650,7 @@ footer  {
         left: 50%;
         transform: translate(-50%, -50%);
     }
-  
+
 
     .dublin-welcome {
         text-align: center;
@@ -658,8 +659,8 @@ footer  {
         padding-bottom: 2em;
         height: 1px;
         font-size: 130%;
-        }
-    
+    }
+
     .dublin-walks {
         text-align: center;
         color: #fcfcfc;
@@ -667,89 +668,78 @@ footer  {
         padding-bottom: 4em;
         height: 3vh;
         font-size: 100%;
-        }
+    }
 
     .container {
-    background: #fcfcfc;
-    height: 35vh;
+        background: #fcfcfc;
+        height: 35vh;
+    }
+
+    .container p {
+        font-size: 2vh;
+        font-family: roboto;
+        font-weight: 200;
+        color: black;
+        padding-left: 3em;
+    }
+
+
+    .container-two {
+        background: #fcfcfc;
+        height: 40vh;
+        padding-top: 2em;
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+
+    .container-two p {
+        font-size: 2vh;
+        font-family: roboto;
+        font-weight: 200;
+        color: black;
+    }
+
+    .container-three {
+        background: #fcfcfc;
+        height: 50vh;
+        padding-bottom: 4em;
+    }
+
+    .container-three p {
+        font-size: 2vh;
+        font-family: roboto;
+        font-weight: 200;
+        color: black;
+    }
+
+    .navbar-links {
+        display: flex;
+        width: 10%;
+        padding-bottom: 1em;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links li {
+        text-align: center;
+        justify-content: center;
+    }
+
 }
 
-.container p {
-    font-size: 2vh;
-    font-family: roboto;
-    font-weight: 200;
-    color: black;
-    padding-left: 3em;
-}
-
-
-.container-two {
-    background: #fcfcfc;
-    height: 40vh;
-    padding-top: 2em;
-    padding-right: 1em;
-    padding-left: 1em;
-}
-
-.container-two p {
-    font-size: 2vh;
-    font-family: roboto;
-    font-weight: 200;
-    color: black;
-}
-
-.container-three {
-    background: #fcfcfc;
-    height: 50vh;
-    padding-bottom: 4em;
-}
-
-.container-three p {
-    font-size: 2vh;
-    font-family: roboto;
-    font-weight: 200;
-    color: black;
-}
-
-.navbar-links {
-    display: flex;
-    width: 10%;
-    padding-bottom: 2em;
- }
-
- .navbar {
-     flex-direction: column;
-     align-items: center;
- }
-
- .navbar-links ul {
-     width: 100%;
-     flex-direction: column;
- }
-
- .navbar-links li {
-     text-align: center;
-     justify-content: center;
- }
 
 
 
 
-/*
- .navbar-links li a {
-     padding: .5rem 1rem;
- }
 
-   }
-
- .navbar-links .active {
-     display: flex;
- }
- */
-
-
-
-    
 
 
 
@@ -776,33 +766,33 @@ footer  {
         padding-bottom: 2em;
         height: 1px;
         font-size: 130%;
-        }
+    }
 
-        .dublin-walks {
-            text-align: center;
-            color: #fcfcfc;
-            padding-top: 1em;
-            padding-bottom: 4em;
-            height: 3vh;
-            font-size: 100%; 
-            }
+    .dublin-walks {
+        text-align: center;
+        color: #fcfcfc;
+        padding-top: 1em;
+        padding-bottom: 4em;
+        height: 3vh;
+        font-size: 100%;
+    }
 
 
-        .container p {
-            font-size: 2vh;
-            padding-top: 2vh;
-        }
-   
-        .container-two p {
-            font-size: 2vh;
-            padding-right: 2vh;
-        }
-   
-        .container-three p {
-            font-size: 2vh;
-            padding-left: 2vh;
-        }
-    
+    .container p {
+        font-size: 2vh;
+        padding-top: 2vh;
+    }
+
+    .container-two p {
+        font-size: 2vh;
+        padding-right: 2vh;
+    }
+
+    .container-three p {
+        font-size: 2vh;
+        padding-left: 2vh;
+    }
+
 
     .dublin-image {
         height: 10em;
@@ -815,126 +805,126 @@ footer  {
 
     .grand-canal-walk {
         background: url('../images/dublin-kavanagh.jpg') no-repeat center center;
-         height: 80vh;
-         width: 100%;
-         text-align: center;
-         font-size: 2.6vh;
-         font-weight: 800;
-         padding-top: 2em;
-         color: white;   
-     }
-    
-        
-        .grand-canal-text {
-            font-size: 2.5vh;
-            line-height: 26px;
-           font-family: Helvetica, sans-serif;
-           color: white;
-           padding-left: 2em;
-           padding-right: 2em;
-           padding-bottom: 5em;
-        }
-    
-       
+        height: 80vh;
+        width: 100%;
+        text-align: center;
+        font-size: 2.6vh;
+        font-weight: 800;
+        padding-top: 2em;
+        color: white;
+    }
+
+
+    .grand-canal-text {
+        font-size: 2.5vh;
+        line-height: 26px;
+        font-family: Helvetica, sans-serif;
+        color: white;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-bottom: 5em;
+    }
+
+
     .botanic-gardens {
         background: url('../images/dublin-botanic.jpg') no-repeat center center;
-         height: 80vh;
-         width: 100%;
-         text-align: center;
-         font-size: 2.5vh;
-         font-weight: 800;
-         padding-top: 1em;
-         color: white;
+        height: 80vh;
+        width: 100%;
+        text-align: center;
+        font-size: 2.5vh;
+        font-weight: 800;
+        padding-top: 1em;
+        color: white;
     }
-    
-     .botanic-gardens-text {
+
+    .botanic-gardens-text {
         font-size: 2.4vh;
         line-height: 25px;
-       font-family: Helvetica, sans-serif;
-       font-weight: 200;
-       color: white;
-       padding-left: 3em;
-       padding-right: 3em;
-       padding-bottom: 3em;
+        font-family: Helvetica, sans-serif;
+        font-weight: 200;
+        color: white;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-bottom: 3em;
     }
-    
+
     .dublin-killiney {
         background: url('../images/dublin-killiney.jpg') no-repeat center center;
-         height: 80vh;
-         width: 100%;
-         padding-bottom: 1em;
-         text-align: center;
-         font-size: 2.6vh;
-         font-weight: 800;
-         padding-top: 2em;
-         color: white;
+        height: 80vh;
+        width: 100%;
+        padding-bottom: 1em;
+        text-align: center;
+        font-size: 2.6vh;
+        font-weight: 800;
+        padding-top: 2em;
+        color: white;
     }
-    
+
     .dublin-killiney-text {
         font-size: 2.4vh;
         line-height: 25px;
-       font-family: Helvetica, sans-serif;
-       font-weight: 200;
-       color: white;
-       padding-left: 3em;
-       padding-right: 3em;
-       padding-bottom: 4em;
+        font-family: Helvetica, sans-serif;
+        font-weight: 200;
+        color: white;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-bottom: 4em;
     }
-    
-    
+
+
     .great-south-walk {
         background: url('../images/dublin-great-south.webp') no-repeat center center;
-         height: 80vh;
-         width: 100%;
-         padding-bottom: 3em;
-         text-align: center;
-         font-size: 2.6vh;
-         font-weight: 800;
-         padding-top: 2em;
-         color: white;
+        height: 80vh;
+        width: 100%;
+        padding-bottom: 3em;
+        text-align: center;
+        font-size: 2.6vh;
+        font-weight: 800;
+        padding-top: 2em;
+        color: white;
     }
-    
-    
+
+
     .great-south-text {
         font-size: 2.4vh;
         line-height: 25px;
-       font-family: Helvetica, sans-serif;
-       font-weight: 200;
-       color: white;
-       padding-left: 2em;
-       padding-right: 2em;
-       padding-bottom: 4em;
+        font-family: Helvetica, sans-serif;
+        font-weight: 200;
+        color: white;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-bottom: 4em;
     }
-    
-    
+
+
     .dublin-park-phoenix {
         background: url('../images/dublin-park-phoenix.webp') no-repeat center center;
-         height: 80vh;
-         width: 100%;
-         padding-bottom: 4em;
-         text-align: center;
-         font-size: 2.6vh;
-         font-weight: 800;
-         padding-top: 2em;   
-         color: white; 
+        height: 80vh;
+        width: 100%;
+        padding-bottom: 4em;
+        text-align: center;
+        font-size: 2.6vh;
+        font-weight: 800;
+        padding-top: 2em;
+        color: white;
     }
-    
-    
+
+
     .dublin-park-text {
         font-size: 2.4vh;
         line-height: 25px;
-       font-family: Helvetica, sans-serif;
-       font-weight: 200;
-       color: white;
-       padding-left: 2em;
-       padding-right: 2em;
-       padding-bottom: 2em;
+        font-family: Helvetica, sans-serif;
+        font-weight: 200;
+        color: white;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-bottom: 2em;
     }
-    
-    
-    
 
-    
+
+
+
+
     .image1 {
         width: 8em;
         height: 8em;
@@ -942,7 +932,7 @@ footer  {
         border-radius: 50%;
         background-size: cover;
     }
-    
+
     .image2 {
         width: 8em;
         height: 8em;
@@ -950,7 +940,7 @@ footer  {
         border-radius: 50%;
         background-size: cover;
     }
-    
+
     .image3 {
         width: 8em;
         height: 8em;
@@ -958,51 +948,40 @@ footer  {
         border-radius: 50%;
         background-size: cover;
     }
-    
 
-    
+
+
     .navbar-links {
         display: flex;
         width: 80%;
-        padding-bottom: 2em;
-     }
- 
-     .navbar {
-         flex-direction: column;
-         align-items: center;
-     }
- 
-     .navbar-links ul {
-         width: 100%;
-         flex-direction: column;
-     }
- 
-     .navbar-links li {
-         text-align: center;
-         justify-content: center;
-     }
+        padding-bottom: 0.5em;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links li {
+        text-align: center;
+        justify-content: center;
+    }
 
 
-   .text-input {
-    background: transparent;
-    color: black;
-    width: 100%;
-    height: 23px;
-    margin: 6px 10px 30px 0;
-    border: 1px solid black;
-    border-radius: 4px;
-}
-
- /*
-     .navbar-links li a {
-         padding: .5rem 1rem;
-     }
- 
-     .navbar-links .active {
-         display: flex;
-     }
-}
-*/
+    .text-input {
+        background: transparent;
+        color: black;
+        width: 100%;
+        height: 23px;
+        margin: 6px 10px 30px 0;
+        border: 1px solid black;
+        border-radius: 4px;
+    }
 }
 
 
@@ -1014,9 +993,9 @@ footer  {
 
 
 @media screen and (max-width: 500px) {
-    
-     
-  
+
+
+
 
     .dublin-welcome {
         text-align: center;
@@ -1025,112 +1004,100 @@ footer  {
         padding-bottom: 2em;
         height: 1px;
         font-size: 130%;
-        }
+    }
 
-        .vista-heading {
-            color: white;
-            text-align: center;
-            font-size: 3vh;
-            position: relative;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
+    .vista-heading {
+        color: white;
+        text-align: center;
+        font-size: 3vh;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 
     .container {
-    background: #fcfcfc;
-    height: 35vh;
-}
+        background: #fcfcfc;
+        height: 35vh;
+    }
 
-.container p {
-    font-size: 2vh;
-    font-family: roboto;
-    font-weight: 200;
-    color: black;
-    padding-left: 3em;
-}
-
-
-.container-two {
-    background: #fcfcfc;
-    height: 40vh;
-    padding-top: 2em;
-    padding-right: 1em;
-    padding-left: 1em;
-}
-
-.container-two p {
-    font-size: 2vh;
-    font-family: roboto;
-    font-weight: 200;
-    color: black;
-}
-
-.container-three {
-    background: #fcfcfc;
-    height: 45vh;
-    padding-bottom: 4em;
-}
-
-.container-three p {
-    font-size: 2vh;
-    font-family: roboto;
-    font-weight: 200;
-    color: black;
-}
-
-.grand-canal-walk {
-    background: url('../images/dublin-kavanagh.jpg') no-repeat center center;
-     height: 80vh;
-     width: 100%;
-     
- }
-
-.grand-canal-text {
-    font-size: 2.4vh;
-    line-height: 23px;
-   font-family: Helvetica, sans-serif;
-   font-weight: 200;
-   color: white;
-   padding-top: 1em;
-   padding-left: 3em;
-   padding-right: 3em;
-   padding-bottom: 1em;
-}
+    .container p {
+        font-size: 2vh;
+        font-family: roboto;
+        font-weight: 200;
+        color: black;
+        padding-left: 3em;
+    }
 
 
-    
-.navbar-links {
-    display: flex;
-    width: 50%;
-    padding-bottom: 2em;
- }
+    .container-two {
+        background: #fcfcfc;
+        height: 40vh;
+        padding-top: 2em;
+        padding-right: 1em;
+        padding-left: 1em;
+    }
 
- .navbar {
-     flex-direction: column;
-     align-items: center;
- }
+    .container-two p {
+        font-size: 2vh;
+        font-family: roboto;
+        font-weight: 200;
+        color: black;
+    }
 
- .navbar-links ul {
-     width: 100%;
-     flex-direction: column;
- }
+    .container-three {
+        background: #fcfcfc;
+        height: 45vh;
+        padding-bottom: 4em;
+    }
 
- .navbar-links li {
-     text-align: center;
- }
+    .container-three p {
+        font-size: 2vh;
+        font-family: roboto;
+        font-weight: 200;
+        color: black;
+    }
 
- /*
+    .grand-canal-walk {
+        background: url('../images/dublin-kavanagh.jpg') no-repeat center center;
+        height: 80vh;
+        width: 100%;
 
- .navbar-links li a {
-     padding: .5rem 1rem;
- }
+    }
 
- .navbar-links .active {
-     display: flex;
- }
-}
-*/
+    .grand-canal-text {
+        font-size: 2.4vh;
+        line-height: 23px;
+        font-family: Helvetica, sans-serif;
+        font-weight: 200;
+        color: white;
+        padding-top: 1em;
+        padding-left: 3em;
+        padding-right: 3em;
+        padding-bottom: 1em;
+    }
+
+
+
+    .navbar-links {
+        display: flex;
+        width: 50%;
+        padding-bottom: 0.5em;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links li {
+        text-align: center;
+    }
 }
 
 
@@ -1140,7 +1107,7 @@ footer  {
 
 
 @media screen and (max-width: 400px) {
-    
+
     .vista-heading {
         color: white;
         text-align: center;
@@ -1158,59 +1125,59 @@ footer  {
         padding-bottom: 2em;
         height: 1px;
         font-size: 130%;
-        }
+    }
 
     .container {
-    background: #fcfcfc;
-    height: 40vh;
-}
+        background: #fcfcfc;
+        height: 40vh;
+    }
 
-.container p {
-    font-size: 2vh;
-    font-family: roboto;
-    font-weight: 200;
-    color: black;
-    padding-left: 3em;
-}
+    .container p {
+        font-size: 2vh;
+        font-family: roboto;
+        font-weight: 200;
+        color: black;
+        padding-left: 3em;
+    }
 
 
-.container-two {
-    background: #fcfcfc;
-    height: 55vh;
-    padding-top: 2em;
-    padding-right: 1em;
-    padding-left: 1em;
-}
+    .container-two {
+        background: #fcfcfc;
+        height: 55vh;
+        padding-top: 2em;
+        padding-right: 1em;
+        padding-left: 1em;
+    }
 
-.container-two p {
-    font-size: 2vh;
-    font-family: roboto;
-    font-weight: 200;
-    color: black;
-}
+    .container-two p {
+        font-size: 2vh;
+        font-family: roboto;
+        font-weight: 200;
+        color: black;
+    }
 
-.container-three {
-    background: #fcfcfc;
-    height: 55vh;
-    padding-bottom: 4em;
-}
+    .container-three {
+        background: #fcfcfc;
+        height: 55vh;
+        padding-bottom: 4em;
+    }
 
-.container-three p {
-    font-size: 2vh;
-    font-family: roboto;
-    font-weight: 200;
-    color: black;
-}
+    .container-three p {
+        font-size: 2vh;
+        font-family: roboto;
+        font-weight: 200;
+        color: black;
+    }
 
-.image1 {
-    width: 8em;
-    height: 8em;
-    background: url('../images/custom-house.jpeg') no-repeat center center;
-    border-radius: 50%;
-    background-size: cover;
-}
+    .image1 {
+        width: 8em;
+        height: 8em;
+        background: url('../images/custom-house.jpeg') no-repeat center center;
+        border-radius: 50%;
+        background-size: cover;
+    }
 
-.image2 {
+    .image2 {
         width: 8em;
         height: 8em;
         background: url('../images/stephens-green.jpeg') no-repeat center center;
@@ -1218,7 +1185,7 @@ footer  {
         background-size: cover;
     }
 
-.image3 {
+    .image3 {
         width: 8em;
         height: 8em;
         background: url('../images/trinity.jpeg') no-repeat center center;
@@ -1228,43 +1195,43 @@ footer  {
 
     .grand-canal-walk {
         background: url('../images/dublin-kavanagh.jpg') no-repeat center center;
-         height: 80vh;
-         width: 100%;
-         
-     }
-    
+        height: 80vh;
+        width: 100%;
+
+    }
+
     .grand-canal-text {
         font-size: 2.4vh;
         line-height: 23px;
-       font-family: Helvetica, sans-serif;
-       font-weight: 200;
-       color: white;
-       padding-top: 1em;
-       padding-left: 3em;
-       padding-right: 3em;
-       padding-bottom: 1em;
+        font-family: Helvetica, sans-serif;
+        font-weight: 200;
+        color: white;
+        padding-top: 1em;
+        padding-left: 3em;
+        padding-right: 3em;
+        padding-bottom: 1em;
     }
 
     .dublin-park-phoenix {
         background: url('../images/dublin-park-phoenix.webp') no-repeat center center;
-         height: 90vh;
-         width: 100%;
-         padding-bottom: 4em;
-         text-align: center;
-         font-size: 2.6vh;
-         font-weight: 800;
-         padding-top: 2em;   
-         color: white; 
+        height: 90vh;
+        width: 100%;
+        padding-bottom: 4em;
+        text-align: center;
+        font-size: 2.6vh;
+        font-weight: 800;
+        padding-top: 2em;
+        color: white;
     }
 
 
-    
-    
+
+
 
     .navbar-links {
-       display: flex;
-       width: 50%;
-       padding-bottom: 2em;
+        display: flex;
+        width: 50%;
+        padding-bottom: 0.5em;
     }
 
     .navbar {
@@ -1282,30 +1249,14 @@ footer  {
     }
 
 
-   .text-input {
-    background: transparent;
-    color: black;
-    width: 100%;
-    height: 23px;
-    margin: 4px 10px 30px 0;
-    border: 1px solid black;
-    border-radius: 4px;
-}
-
-}
-/*
-    .navbar-links li a {
-        padding: .5rem 1rem;
+    .text-input {
+        background: transparent;
+        color: black;
+        width: 100%;
+        height: 23px;
+        margin: 4px 10px 30px 0;
+        border: 1px solid black;
+        border-radius: 4px;
     }
 
-    .navbar-links .active {
-        display: flex;
-    }
 }
-*/
-   }
-
-  
-
-    
-
