@@ -116,7 +116,7 @@ body {
 
 .dublin-welcome {
     text-align: center;
-    color: rgb(245, 73, 6);
+    color: black;
     padding-top: 1em;
     padding-bottom: 3em;
     font-size: 150%;
@@ -450,7 +450,7 @@ footer {
     text-align: left;
     margin-bottom: 3em;
     padding-top: 3em;
-    color: #fcfcfc;
+    color: black;
     font-size: 130%;
 
 }
@@ -465,7 +465,7 @@ footer {
     column-count: 2;
     column-gap: 1em;
     row-gap: 1em;
-    background: #555454;
+    background: #c4c4c4;
 }
 
 #photos>img {
@@ -584,7 +584,7 @@ footer {
 
     .dublin-welcome {
         text-align: center;
-        color: rgb(245, 73, 6);
+        color: black;
         padding-top: 1em;
         padding-bottom: 2em;
         height: 1px;
@@ -654,7 +654,7 @@ footer {
 
     .dublin-welcome {
         text-align: center;
-        color: rgb(245, 73, 6);
+        color: black;
         padding-top: 1em;
         padding-bottom: 2em;
         height: 1px;
@@ -761,7 +761,7 @@ footer {
 
     .dublin-welcome {
         text-align: center;
-        color: rgb(245, 73, 6);
+        color: black;
         padding-top: 1em;
         padding-bottom: 2em;
         height: 1px;
@@ -999,7 +999,7 @@ footer {
 
     .dublin-welcome {
         text-align: center;
-        color: rgb(245, 73, 6);
+        color: black;
         padding-top: 1em;
         padding-bottom: 2em;
         height: 1px;
@@ -1120,7 +1120,7 @@ footer {
 
     .dublin-welcome {
         text-align: center;
-        color: rgb(245, 73, 6);
+        color: black;
         padding-top: 1em;
         padding-bottom: 2em;
         height: 1px;
