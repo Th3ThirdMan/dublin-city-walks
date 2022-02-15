@@ -665,7 +665,7 @@ footer  {
        }
 
    .container {
-   background: #FFFFE0;
+   background: #fcfcfc;
    height: 35vh;
    width: 100%;
 }
@@ -680,7 +680,7 @@ footer  {
 
 
 .container-two {
-   background: #FFFFE0;
+   background: #fcfcfc;
    height: 40vh;
    padding-top: 2em;
    padding-right: 1em;
@@ -695,7 +695,7 @@ footer  {
 }
 
 .container-three {
-   background: #FFFFE0;
+   background: #fcfcfc;
    height: 50vh;
    padding-bottom: 4em;
 }
@@ -735,7 +735,7 @@ footer  {
         }
 
     .container {
-    background: #FFFFE0 ;
+    background: #fcfcfc;
     height: 35vh;
 }
 
@@ -749,7 +749,7 @@ footer  {
 
 
 .container-two {
-    background: #FFFFE0;
+    background: #fcfcfc;
     height: 40vh;
     padding-top: 2em;
     padding-right: 1em;
@@ -764,7 +764,7 @@ footer  {
 }
 
 .container-three {
-    background: #FFFFE0;
+    background: #fcfcfc;
     height: 50vh;
     padding-bottom: 4em;
 }
@@ -1046,15 +1046,6 @@ footer  {
      }
 
 
-
-#subject {
-    width: 13vh;
-    height: 8em;
-    margin: 1vh 1vh 1vh 0;
-    border: 1px black solid;
-    border-radius: 1vh;
-}
-
    .text-input {
     background: transparent;
     color: black;
@@ -1100,7 +1091,7 @@ footer  {
         }
 
     .container {
-    background: #FFFFE0;
+    background: #fcfcfc;
     height: 35vh;
 }
 
@@ -1114,7 +1105,7 @@ footer  {
 
 
 .container-two {
-    background: #FFFFE0;
+    background: #fcfcfc;
     height: 40vh;
     padding-top: 2em;
     padding-right: 1em;
@@ -1129,7 +1120,7 @@ footer  {
 }
 
 .container-three {
-    background: #FFFFE0;
+    background: #fcfcfc;
     height: 45vh;
     padding-bottom: 4em;
 }
@@ -1223,7 +1214,7 @@ footer  {
         }
 
     .container {
-    background: #FFFFE0;
+    background: #fcfcfc;
     height: 40vh;
 }
 
@@ -1237,7 +1228,7 @@ footer  {
 
 
 .container-two {
-    background: #FFFFE0;
+    background: #fcfcfc;
     height: 55vh;
     padding-top: 2em;
     padding-right: 1em;
@@ -1252,7 +1243,7 @@ footer  {
 }
 
 .container-three {
-    background: #FFFFE0;
+    background: #fcfcfc;
     height: 55vh;
     padding-bottom: 4em;
 }
@@ -1343,15 +1334,6 @@ footer  {
         text-align: center;
     }
 
-
-
-#subject {
-    width: 11vh;
-    height: 4em;
-    margin: 2vh 1vh 1vh 0;
-    border: 1px black solid;
-    border-radius: 1vh;
-}
 
    .text-input {
     background: transparent;
