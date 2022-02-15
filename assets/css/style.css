@@ -125,12 +125,11 @@ body {
 
 .dublin-welcome-walks {
     text-align: center;
-    color: white;
+    color: blue;
     padding-top: 1em;
-    padding-bottom: 1em;
+    padding-bottom: 4em;
     height: 3vh;
     font-size: 150%;
-    background: white;
 
 }
 
@@ -527,81 +526,6 @@ footer  {
 
 
 
-/* Contact Page */
-/*
-.contact-form {
-    height: 100vh;
-    width: 100%;
-    background: url('../images/dublin-trinity-image.webp') no-repeat center center;
-    background-size: cover;
-    backdrop-filter: blur(2px);
-    
-    
-}
-
-.contact-info {
-    height: 70vh;
-    width: 35%;
-    color: black;
-    font-weight: bold;
-    background-color: rgba(252, 237, 225, 0.671);
-    border: none;
-    float: right;
-    position: relative; 
-    right: 32%;
-    top: 15%;
-    opacity: 0.8;
-    padding-top: 5vh;
-    padding-left: 10vh;
-    padding-right: 15vh;
-   
-}
-
-.contact-us h2 {
-    text-align: center;
-    color: black;
-}
-
-#subject {
-    width: 40vh;
-    height: 6em;
-    margin: 1vh 2vh 2vh 2vh;
-    border: 1px black solid;
-    border-radius: 1vh;
-}
-
-.text-input {
-    color: black;
-    width: 40vh;
-    height: 2em;
-    margin: 1vh 2vh 2vh 2vh;
-    border: 1px black solid;
-    border-radius: 1.5vh;
-    text-align: left;
-}
-
-.contact-button {
-    margin-top: 1em;
-    border-radius: 1vh;
-    padding: 2vh 4vh 2vh 4vh;
-    text-align: center;
-    font-size: 100%;
-    background-color: black;
-    color: white;
-    display: block;
-    position: relative;
-    left: 12vh;
-    border: 1px white solid;
-}
-
-*/
-
-
-
-
-
-
-
 
 
 
@@ -718,7 +642,7 @@ footer  {
         color: white;
         text-align: center;
         font-size: 4vh;
-        position: absolute;
+        position: relative;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -778,7 +702,7 @@ footer  {
 
 .navbar-links {
     display: flex;
-    width: 100%;
+    width: 10%;
     padding-bottom: 2em;
  }
 
@@ -822,22 +746,13 @@ footer  {
 
 
 @media screen and (max-width: 620px) {
-    
-
-     
-     #menu {
-        float: left;
-        width: 100%;
-        margin-bottom: 1em;
-        line-height: 2em;
-    } 
 
 
     .vista-heading {
         color: white;
         text-align: center;
         font-size: 4vh;
-        position: absolute;
+        position: relative;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -1027,13 +942,13 @@ footer  {
     
     .navbar-links {
         display: flex;
-        width: 100%;
+        width: 80%;
         padding-bottom: 2em;
      }
  
      .navbar {
          flex-direction: column;
-         align-items: flex-start;
+         align-items: center;
      }
  
      .navbar-links ul {
@@ -1043,6 +958,7 @@ footer  {
  
      .navbar-links li {
          text-align: center;
+         justify-content: center;
      }
 
 
@@ -1088,6 +1004,16 @@ footer  {
         padding-bottom: 2em;
         height: 1px;
         font-size: 130%;
+        }
+
+        .vista-heading {
+            color: white;
+            text-align: center;
+            font-size: 3vh;
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
         }
 
     .container {
@@ -1155,13 +1081,13 @@ footer  {
     
 .navbar-links {
     display: flex;
-    width: 100%;
+    width: 50%;
     padding-bottom: 2em;
  }
 
  .navbar {
      flex-direction: column;
-     align-items: flex-start;
+     align-items: center;
  }
 
  .navbar-links ul {
@@ -1198,7 +1124,7 @@ footer  {
         color: white;
         text-align: center;
         font-size: 3vh;
-        position: absolute;
+        position: relative;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -1316,13 +1242,13 @@ footer  {
 
     .navbar-links {
        display: flex;
-       width: 100%;
+       width: 50%;
        padding-bottom: 2em;
     }
 
     .navbar {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
     }
 
     .navbar-links ul {
