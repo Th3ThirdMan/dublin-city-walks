@@ -123,15 +123,6 @@ body {
     text-decoration: underline;
 }
 
-.dublin-welcome-walks {
-    text-align: center;
-    color: blue;
-    padding-top: 1em;
-    padding-bottom: 4em;
-    height: 3vh;
-    font-size: 150%;
-
-}
 
 
 .container {
@@ -313,12 +304,14 @@ footer  {
     text-align: center;
 }
 
-.dublin-welcome-walks {
-    height: 4em;
+.dublin-walks {
     text-align: center;
-    color: white;
-    background: rgb(22, 22, 22);
+    color: #fcfcfc;
     padding-top: 1em;
+    padding-bottom: 4em;
+    height: 3vh;
+    font-size: 140%;
+
 }
 
 .grand-canal-walk {
@@ -452,6 +445,15 @@ footer  {
      color: white;
  }
 
+ .dublin-questions-contact {
+     text-align: left;
+     margin-bottom: 3em;
+     padding-top: 3em;
+     color: #fcfcfc;
+     font-size: 130%;
+     
+ }
+
 
 
 /* Gallery */
@@ -462,7 +464,7 @@ footer  {
     column-count: 2;
     column-gap: 1;
     row-gap: 1;
-    background: #fcfcfc;
+    background: #555454;
 }
 
 #photos > img {
@@ -657,6 +659,15 @@ footer  {
         height: 1px;
         font-size: 130%;
         }
+    
+    .dublin-walks {
+        text-align: center;
+        color: #fcfcfc;
+        padding-top: 1em;
+        padding-bottom: 4em;
+        height: 3vh;
+        font-size: 100%;
+        }
 
     .container {
     background: #fcfcfc;
@@ -767,6 +778,16 @@ footer  {
         font-size: 130%;
         }
 
+        .dublin-walks {
+            text-align: center;
+            color: #fcfcfc;
+            padding-top: 1em;
+            padding-bottom: 4em;
+            height: 3vh;
+            font-size: 100%; 
+            }
+
+
         .container p {
             font-size: 2vh;
             padding-top: 2vh;
@@ -806,7 +827,7 @@ footer  {
         
         .grand-canal-text {
             font-size: 2.5vh;
-            line-height: 25px;
+            line-height: 26px;
            font-family: Helvetica, sans-serif;
            color: white;
            padding-left: 2em;
@@ -828,7 +849,7 @@ footer  {
     
      .botanic-gardens-text {
         font-size: 2.4vh;
-        line-height: 23px;
+        line-height: 25px;
        font-family: Helvetica, sans-serif;
        font-weight: 200;
        color: white;
@@ -851,7 +872,7 @@ footer  {
     
     .dublin-killiney-text {
         font-size: 2.4vh;
-        line-height: 23px;
+        line-height: 25px;
        font-family: Helvetica, sans-serif;
        font-weight: 200;
        color: white;
@@ -876,7 +897,7 @@ footer  {
     
     .great-south-text {
         font-size: 2.4vh;
-        line-height: 23px;
+        line-height: 25px;
        font-family: Helvetica, sans-serif;
        font-weight: 200;
        color: white;
@@ -901,7 +922,7 @@ footer  {
     
     .dublin-park-text {
         font-size: 2.4vh;
-        line-height: 23px;
+        line-height: 25px;
        font-family: Helvetica, sans-serif;
        font-weight: 200;
        color: white;
