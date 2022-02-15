@@ -186,7 +186,7 @@ hr {
     display: block;
     width: 70%;
     align-items: center;
-    padding-top: 80px;
+    padding-top: 40px;
     margin: 0 auto;
 }
 
@@ -438,7 +438,7 @@ footer  {
 #photos {
     clear: right;
     line-height: 1;
-    column-count: 4;
+    column-count: 2;
     column-gap: 1;
     row-gap: 1;
     background: rgb(254, 254, 255);
@@ -461,15 +461,14 @@ footer  {
 }
 
 .contact-info {
-    margin: 20px 0 80px 0;
+    margin: 150px 5% 0 0;
     color: black;
-    background-color: rgba(233, 252, 252, 0.678);
+    background-color: rgba(238, 238, 238, 0.678);
     max-width: 400px;
     position: absolute;
-    left: 20%;
-    padding: 10vh;
+    left: 5%;
+    padding: 30px;
     border-radius: 10px;
-    border: 1px solid black;
 }
 
 
@@ -478,33 +477,27 @@ footer  {
     color: black;
     width: 100%;
     height: 25px;
-    margin: 5px 0 20px 0;
+    margin: 3px 0 15px 0;
     border: 1px solid black;
     border-radius: 4px;
 }
 
 .text-input:hover {
-    border-color: #ff2b2b;
+    border-color: blue;
 }
 
 .contact-button {
-    margin-top: 20px;
+    text-align: center;
+    margin-top: 15px;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color:rgb(54, 16, 1);
-    color: #fafafa;
+    background-color:rgb(54, 184, 228);
+    color: black;
     display: block;
 }
 
-#subject {
-    width: 35vh;
-    height: 8em;
-    margin: 2vh 2vh 2vh 2vh;
-    border: 1px black solid;
-    border-radius: 1vh;
-}
 
 
 
@@ -619,25 +612,6 @@ footer  {
         border-radius: 50%;
         background-size: cover;
     }
-
-
-.contact-us {
-    height: 70vh;
-    width: 35%;
-    color: black;
-    font-weight: bold;
-    background-color: rgba(252, 237, 225, 0.671);
-    border: none;
-    float: right;
-    position: relative; 
-    right: 32%;
-    top: 15%;
-    opacity: 0.8;
-    padding-top: 5vh;
-    padding-left: 10vh;
-    padding-right: 15vh;
-   
-}
 }
 
 
@@ -669,7 +643,7 @@ footer  {
        }
 
    .container {
-   background: white;
+   background: #FFFFE0;
    height: 35vh;
    width: 100%;
 }
@@ -684,7 +658,7 @@ footer  {
 
 
 .container-two {
-   background: white;
+   background: #FFFFE0;
    height: 40vh;
    padding-top: 2em;
    padding-right: 1em;
@@ -699,7 +673,7 @@ footer  {
 }
 
 .container-three {
-   background: white;
+   background: #FFFFE0;
    height: 50vh;
    padding-bottom: 4em;
 }
@@ -739,7 +713,7 @@ footer  {
         }
 
     .container {
-    background: white;
+    background: #FFFFE0 ;
     height: 35vh;
 }
 
@@ -753,7 +727,7 @@ footer  {
 
 
 .container-two {
-    background: white;
+    background: #FFFFE0;
     height: 40vh;
     padding-top: 2em;
     padding-right: 1em;
@@ -768,7 +742,7 @@ footer  {
 }
 
 .container-three {
-    background: white;
+    background: #FFFFE0;
     height: 50vh;
     padding-bottom: 4em;
 }
@@ -802,26 +776,7 @@ footer  {
  }
 
 
-.contact-info {
-    margin: 10px 0 80px 0;
-    color: black;
-    background-color: rgba(233, 252, 252, 0.678);
-    max-width: 200px;
-    position: absolute;
-    left: 20%;
-    padding: 10vh;
-    border-radius: 10px;
-    border: 1px solid black;
-}
 
-
-#subject {
-    width: 20vh;
-    height: 8em;
-    margin: 1vh 1vh 1vh 0;
-    border: 1px black solid;
-    border-radius: 1vh;
-}
 
 /*
  .navbar-links li a {
@@ -855,12 +810,6 @@ footer  {
         line-height: 2em;
     } 
 
-    #logo {
-        float: left;
-        margin-left: 3vh;
-        font-size: 120%;
-        margin-top: 5vh;
-    }
 
     .vista-heading {
         color: white;
@@ -975,18 +924,6 @@ footer  {
      }
 
 
-.contact-info {
-    margin: 10px 0 80px 0;
-    color: black;
-    background-color: rgba(233, 252, 252, 0.678);
-    max-width: 100px;
-    position: absolute;
-    left: 10%;
-    padding: 12vh;
-    border-radius: 10px;
-    border: 1px solid black;
-}
-
 
 #subject {
     width: 13vh;
@@ -1041,7 +978,7 @@ footer  {
         }
 
     .container {
-    background: white;
+    background: #FFFFE0;
     height: 35vh;
 }
 
@@ -1055,7 +992,7 @@ footer  {
 
 
 .container-two {
-    background: white;
+    background: #FFFFE0;
     height: 40vh;
     padding-top: 2em;
     padding-right: 1em;
@@ -1070,7 +1007,7 @@ footer  {
 }
 
 .container-three {
-    background: white;
+    background: #FFFFE0;
     height: 45vh;
     padding-bottom: 4em;
 }
@@ -1164,7 +1101,7 @@ footer  {
         }
 
     .container {
-    background: white;
+    background: #FFFFE0;
     height: 40vh;
 }
 
@@ -1178,7 +1115,7 @@ footer  {
 
 
 .container-two {
-    background: white;
+    background: #FFFFE0;
     height: 55vh;
     padding-top: 2em;
     padding-right: 1em;
@@ -1193,7 +1130,7 @@ footer  {
 }
 
 .container-three {
-    background: white;
+    background: #FFFFE0;
     height: 55vh;
     padding-bottom: 4em;
 }
@@ -1205,17 +1142,25 @@ footer  {
     color: black;
 }
 
+.image1 {
+    width: 8em;
+    height: 8em;
+    background: url('../images/custom-house.jpeg') no-repeat center center;
+    border-radius: 50%;
+    background-size: cover;
+}
+
 .image2 {
-        width: 11em;
-        height: 11em;
+        width: 8em;
+        height: 8em;
         background: url('../images/stephens-green.jpeg') no-repeat center center;
-        border-radius: 20%;
+        border-radius: 50%;
         background-size: cover;
     }
 
 .image3 {
-        width: 11em;
-        height: 11em;
+        width: 8em;
+        height: 8em;
         background: url('../images/trinity.jpeg') no-repeat center center;
         border-radius: 50%;
         background-size: cover;
@@ -1263,18 +1208,7 @@ footer  {
     .navbar-links li {
         text-align: center;
     }
-      
-.contact-info {
-    margin: 8px 0 8px 0;
-    color: black;
-    background-color: rgba(233, 252, 252, 0.678);
-    max-width: 30px;
-    position: absolute;
-    left: 10%;
-    padding: 12vh;
-    border-radius: 10px;
-    border: 1px solid black;
-}
+
 
 
 #subject {
