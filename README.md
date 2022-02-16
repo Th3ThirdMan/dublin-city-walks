@@ -40,7 +40,11 @@ The Walks page is the primary source that reflects a strong and appealing visual
 
 * Users should have immediate information on the subject matter of the website.
 
-* 
+* The site should be have the ability to provide this information with ease.
+
+* The site should provide information for a visitor to the site.
+
+* The site should allow visitors communicate easily with the creator of the site.
 
 
 
