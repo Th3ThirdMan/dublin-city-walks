@@ -416,7 +416,7 @@ footer {
 
 /* Gallery */
 
-main {
+#gallery-style {
     clear: right;
     line-height: 1;
     column-count: 2;
@@ -425,9 +425,10 @@ main {
     background: #c4c4c4;
 }
 
-main > img {
+#gallery-style > img {
     width: 100%;
 }
+
 
 .contact-form {
     clear: left;
@@ -1119,7 +1120,6 @@ main > img {
     .navbar-links li {
         text-align: center;
     }
-
 
     .text-input {
         background: transparent;
