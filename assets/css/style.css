@@ -6,11 +6,7 @@
     border: none;
 }
 
-
-
 /* Headings, logo & Navigation */
-
-
 
 .navbar {
     display: flex;
@@ -50,18 +46,14 @@
     border-bottom: 1px solid white;
 }
 
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
-    background: rgb(22, 22, 22);
-    color: #3a3a3a;
+    background: rgb(39, 39, 39);
+    color: #424242;
 }
 
-
-
 /* Images */
-
 
 #dublin-vista-outer {
     width: 100%;
@@ -69,14 +61,12 @@ body {
     overflow: hidden;
 }
 
-
 #dublin-vista {
     height: 28em;
     width: 100%;
     background: url('../images/dublin-hapenny.webp') no-repeat center center;
 
-
-    /* Animates zoom on page */
+/* Animates zoom on page */
 
     animation-name: vista-zoom;
     animation-duration: 5s;
@@ -95,9 +85,7 @@ body {
     transform: translate(-50%, -50%);
 }
 
-
 /* Creates a level of zoom in image */
-
 
 @keyframes vista-zoom {
     from {
@@ -109,10 +97,7 @@ body {
     }
 }
 
-
-
 /* About Dublin City Walks */
-
 
 .dublin-welcome {
     text-align: center;
@@ -123,8 +108,6 @@ body {
     background: #fcfcfc;
     text-decoration: underline;
 }
-
-
 
 .container {
     background: #fcfcfc;
@@ -139,7 +122,6 @@ body {
     color: black;
     padding-left: 4em;
 }
-
 
 .container-two {
     background: #fcfcfc;
@@ -193,8 +175,6 @@ hr {
     text-align: left;
 }
 
-
-
 .image1 {
     width: 13em;
     height: 13em;
@@ -222,7 +202,6 @@ hr {
     background-size: cover;
 }
 
-
 /* Footer Content */
 
 footer {
@@ -234,16 +213,13 @@ footer {
     position: sticky;
 }
 
-
 .footer-bottom {
     text-align: center;
 }
 
-
 .footer-bottom>p {
     padding-top: 30px;
 }
-
 
 .footer-content {
     display: flex;
@@ -254,12 +230,10 @@ footer {
     color: white;
 }
 
-
 .footer-content h4 {
     color: white;
     font-size: 130%;
 }
-
 
 /* Social Links as part of Footer*/
 
@@ -277,25 +251,18 @@ footer {
     padding-top: 2vh;
 }
 
-
 .social-links a {
     text-decoration: none;
     color: white;
     font-size: 160%;
 }
 
-
 .social-links a:hover {
     color: rgb(245, 73, 6);
     transition: color 1s ease;
 }
 
-
-
-
-
 /* Walks Page Image */
-
 
 .best-walks {
     background: url('../images/poolbeg.jpg') no-repeat center center;
@@ -312,7 +279,6 @@ footer {
     padding-bottom: 4em;
     height: 3vh;
     font-size: 140%;
-
 }
 
 .grand-canal-walk {
@@ -337,7 +303,6 @@ footer {
     padding-right: 1em;
     padding-bottom: 1em;
 }
-
 
 .botanic-gardens {
     background: url('../images/dublin-botanic.jpg') no-repeat center center;
@@ -385,7 +350,6 @@ footer {
     padding-bottom: 2em;
 }
 
-
 .great-south-walk {
     background: url('../images/dublin-great-south.webp') no-repeat center center;
     height: 80vh;
@@ -397,7 +361,6 @@ footer {
     padding-top: 2em;
     color: white;
 }
-
 
 .great-south-text {
     font-size: 2.4vh;
@@ -411,7 +374,6 @@ footer {
     padding-bottom: 2em;
 }
 
-
 .dublin-park-phoenix {
     background: url('../images/dublin-park-phoenix.webp') no-repeat center center;
     height: 80vh;
@@ -424,7 +386,6 @@ footer {
     color: white;
 }
 
-
 .dublin-park-text {
     font-size: 2.4vh;
     line-height: 23px;
@@ -436,8 +397,6 @@ footer {
     padding-right: 1em;
     padding-bottom: 2em;
 }
-
-
 
 .dublin-questions {
     text-align: center;
@@ -455,8 +414,6 @@ footer {
 
 }
 
-
-
 /* Gallery */
 
 main {
@@ -471,9 +428,6 @@ main {
 main > img {
     width: 100%;
 }
-
-
-
 
 .contact-form {
     clear: left;
@@ -494,7 +448,6 @@ main > img {
     padding: 30px;
     border-radius: 10px;
 }
-
 
 .text-input {
     background: transparent;
@@ -521,20 +474,6 @@ main > img {
     color: black;
     display: block;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width: 1200px) {
 
@@ -563,14 +502,7 @@ main > img {
     }
 }
 
-
-
-
-
-
-
 @media screen and (max-width: 1000px) {
-
 
     .vista-heading {
         color: white;
@@ -605,7 +537,6 @@ main > img {
         padding-left: 3em;
     }
 
-
     .container-two {
         background: #fcfcfc;
         height: 40vh;
@@ -635,11 +566,7 @@ main > img {
     }
 }
 
-
-
-
 @media screen and (max-width: 750px) {
-
 
     .vista-heading {
         color: white;
@@ -650,7 +577,6 @@ main > img {
         left: 50%;
         transform: translate(-50%, -50%);
     }
-
 
     .dublin-welcome {
         text-align: center;
@@ -682,7 +608,6 @@ main > img {
         color: black;
         padding-left: 3em;
     }
-
 
     .container-two {
         background: #fcfcfc;
@@ -735,19 +660,7 @@ main > img {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 620px) {
-
 
     .vista-heading {
         color: white;
@@ -777,7 +690,6 @@ main > img {
         font-size: 100%;
     }
 
-
     .container p {
         font-size: 2vh;
         padding-top: 2vh;
@@ -792,7 +704,6 @@ main > img {
         font-size: 2vh;
         padding-left: 2vh;
     }
-
 
     .dublin-image {
         height: 10em;
@@ -814,7 +725,6 @@ main > img {
         color: white;
     }
 
-
     .grand-canal-text {
         font-size: 2.5vh;
         line-height: 26px;
@@ -824,7 +734,6 @@ main > img {
         padding-right: 1em;
         padding-bottom: 5em;
     }
-
 
     .botanic-gardens {
         background: url('../images/dublin-botanic.jpg') no-repeat center center;
@@ -871,7 +780,6 @@ main > img {
         padding-bottom: 4em;
     }
 
-
     .great-south-walk {
         background: url('../images/dublin-great-south.webp') no-repeat center center;
         height: 80vh;
@@ -884,7 +792,6 @@ main > img {
         color: white;
     }
 
-
     .great-south-text {
         font-size: 2.4vh;
         line-height: 25px;
@@ -895,7 +802,6 @@ main > img {
         padding-right: 1em;
         padding-bottom: 4em;
     }
-
 
     .dublin-park-phoenix {
         background: url('../images/dublin-park-phoenix.webp') no-repeat center center;
@@ -909,7 +815,6 @@ main > img {
         color: white;
     }
 
-
     .dublin-park-text {
         font-size: 2.4vh;
         line-height: 25px;
@@ -920,10 +825,6 @@ main > img {
         padding-right: 1em;
         padding-bottom: 2em;
     }
-
-
-
-
 
     .image1 {
         width: 8em;
@@ -949,8 +850,6 @@ main > img {
         background-size: cover;
     }
 
-
-
     .navbar-links {
         display: flex;
         width: 80%;
@@ -972,7 +871,6 @@ main > img {
         justify-content: center;
     }
 
-
     .text-input {
         background: transparent;
         color: black;
@@ -984,18 +882,7 @@ main > img {
     }
 }
 
-
-
-
-
-
-
-
-
 @media screen and (max-width: 500px) {
-
-
-
 
     .dublin-welcome {
         text-align: center;
@@ -1029,7 +916,6 @@ main > img {
         padding-left: 3em;
     }
 
-
     .container-two {
         background: #fcfcfc;
         height: 40vh;
@@ -1062,7 +948,6 @@ main > img {
         background: url('../images/dublin-kavanagh.jpg') no-repeat center center;
         height: 80vh;
         width: 100%;
-
     }
 
     .grand-canal-text {
@@ -1076,8 +961,6 @@ main > img {
         padding-right: 3em;
         padding-bottom: 1em;
     }
-
-
 
     .navbar-links {
         display: flex;
@@ -1099,12 +982,6 @@ main > img {
         text-align: center;
     }
 }
-
-
-
-
-
-
 
 @media screen and (max-width: 400px) {
 
@@ -1139,7 +1016,6 @@ main > img {
         color: black;
         padding-left: 3em;
     }
-
 
     .container-two {
         background: #fcfcfc;
@@ -1224,10 +1100,6 @@ main > img {
         color: white;
     }
 
-
-
-
-
     .navbar-links {
         display: flex;
         width: 50%;
@@ -1258,5 +1130,4 @@ main > img {
         border: 1px solid black;
         border-radius: 4px;
     }
-
 }
