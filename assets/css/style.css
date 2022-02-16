@@ -447,10 +447,10 @@ footer {
 }
 
 .dublin-questions-contact {
-    text-align: left;
+    text-align: center;
     margin-bottom: 3em;
     padding-top: 3em;
-    color: black;
+    color: white;
     font-size: 130%;
 
 }
@@ -459,7 +459,7 @@ footer {
 
 /* Gallery */
 
-#photos {
+main {
     clear: right;
     line-height: 1;
     column-count: 2;
@@ -468,7 +468,7 @@ footer {
     background: #c4c4c4;
 }
 
-#photos>img {
+main > img {
     width: 100%;
 }
 
