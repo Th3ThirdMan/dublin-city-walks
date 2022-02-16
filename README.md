@@ -6,7 +6,9 @@ It is a website designed to be viewed by people of all ages and its use serves t
 
 The Walks page is the primary source that reflects a strong and appealing visual of Dublin City locations where enthusiasts would like to walk. Coupled with this, the page gives additional historical information and anecdotal content which site visitors can enjoy. There is also a Contact page where visitors can include their details to subscribe to a newsletter for further information on other walks within Ireland.
 
-![Image of Dublin City](../images/amiresponsive.png)
+
+
+![Image of Dublin City](assets/images/amiresponsive.png)
 
 # Features
 
