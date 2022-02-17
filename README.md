@@ -132,6 +132,8 @@ The Walks page is the primary source that reflects a strong and appealing visual
 
   * The image adopts a transform and zoom element which gives depth upon opening the page. 
 
+  * The smaller images coupled with text give more than just a visual representation, plus it gives a taste of the history of Dublin when people partake walks around the city.
+
   <br>
 
   ![Home Page Main Image](assets/images/hapenny.png) 
@@ -144,6 +146,10 @@ The Walks page is the primary source that reflects a strong and appealing visual
 
   * The Walks Page consists of a primary 40em image with an eye-catching text description of the best walks available to anyone who visits the site.
 
+  * There is a varied amount of imagery depicting the landscape, but there is context to each location drawing from Irish literature to scenic vistas. This gives the reader a sense of not only the prospect of a nice walk, but an historical outlay of what's worth visiting in Dublin. 
+
+  * Links at the base of the page give the visitor an option to visit the Gallery or Contact Page.
+
   <br><br>
 
   ## The Gallery Page
@@ -152,11 +158,25 @@ The Walks page is the primary source that reflects a strong and appealing visual
 
   * The Gallery Page highlights a myriad of vistas and points of interest around Dublin City. It gives a nice visual of what visitors to the site could come to expect about this location.
 
+  * Links at the base of the page give options for a reader to visit the Contact Page seamlessly.
+
+  <br><br>
+
   ## The Contact Us Page
 
   <br>
 
+  * The Contact Page is an essential part of the website whereby users can get in touch to ask more about the website and the content inside of it. In the case of this Contact Page it invites visitors to provide their e-mail details so they can subscribe to a newsletter.
+
+  <br><br>
+
   ## Footer
+
+  <br>
+
+  * The footer 
+
+  <br><br>
 
 
   # Testing
