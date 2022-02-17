@@ -81,7 +81,9 @@ The Walks page is the primary source that reflects a strong and appealing visual
 
 <br>
 
-* 
+* Font Families included Serif, Helvetica, Source Sans Pro for the Body. I felt that Serif complimented the unfussiness of the webpages, especially for navigation links and welcome text. It added a clarity and refinedness that the pages deserved. 
+
+* Roboto was utilised for text information in the Walks page. This went well with the lightness in attitude of the Walks page. Roboto added to those descriptions, also complimenting the character of the walk descriptions.
 
 <br><br>
 
@@ -116,6 +118,15 @@ The Walks page is the primary source that reflects a strong and appealing visual
 
    ![Image of Navigation Bar:Hover](assets/images/navigationbar-hover.png)
    *Figure 1.2*
+
+
+   # Future Features
+
+   # Testing
+
+   # Validation
+
+   
 
 
 

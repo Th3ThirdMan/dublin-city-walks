@@ -49,6 +49,7 @@
 body {
     background: rgba(16, 35, 54, 0.692);
     color: #424242;
+    font-family: serif, Helvetica, Source Sans Pro;
 }
 
 /* Images */
