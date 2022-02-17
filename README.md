@@ -137,6 +137,7 @@ The Walks page is the primary source that reflects a strong and appealing visual
   <br>
 
   ![Home Page Main Image](assets/images/hapenny.png) 
+  *Figure 1.3*
 
   <br>
 
@@ -174,7 +175,9 @@ The Walks page is the primary source that reflects a strong and appealing visual
 
   <br>
 
-  * The footer 
+  * The footer section link work as designed and lead a user to the appropriate websites when the icons are clicked.
+
+  * They are aligned in an ordered bl
 
   <br><br>
 
@@ -183,11 +186,37 @@ The Walks page is the primary source that reflects a strong and appealing visual
 
   * The project was tested rigorously in a responsive manner, particularly for rendering on smaller and mobile devices. Devices used were: Mobile (Xiaomi Mi 10, 6"), Tablet (Samsung, 7.5" & iPad Air, 8"), Laptop (MacBook Air, 13"). 
 
+  * The site was tested on different browsers, such as Chrome, Safari and Firefox.
+
+  <br>
+
   # Validation
+
+  * No errors were recorded when entered into the official W3C Validator for HTML.
+
+  * No errors were recorded when entered into the official W3C Validator for CSS.
+
+  <br>
+
+  # Web Developer Tools
+  
+  <br>
+  
+  ## Lighthouse
+
+  <br>
 
    ![Image of Lighthouse Results](assets/images/lighthouse.png)
 
+   <br>
+
   # Future Features
+
+  * Build out the Contact Page to a more in-depth query based form, with a textarea and submit button, prompting visitors to the site to be more expansive in their thoughts and have the ability to put questions to the business or site owner.
+
+  * Add in an Upcoming Walks feature that will turn previous visitors into return visitors.
+
+  * Employing a Map feature which indicates where all the walking locations are.
 
 
 
