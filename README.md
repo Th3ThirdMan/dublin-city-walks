@@ -181,6 +181,8 @@ The Walks page is the primary source that reflects a strong and appealing visual
 
   # Testing
 
+  * The project was tested rigorously in a responsive manner, particularly for rendering on smaller and mobile devices. Devices used were: Mobile (Xiaomi Mi 10, 6"), Tablet (Samsung, 7.5" & iPad Air, 8"), Laptop (MacBook Air, 13"). 
+
   # Validation
 
    ![Image of Lighthouse Results](assets/images/lighthouse.png)
