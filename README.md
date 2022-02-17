@@ -91,7 +91,7 @@ The Walks page is the primary source that reflects a strong and appealing visual
 
 
 
-  ## Navigation
+## Navigation
 
 <br>
 
@@ -110,7 +110,7 @@ The Walks page is the primary source that reflects a strong and appealing visual
    * A hamburger menu was initially entertained and created, but the inclusion of JavaScripting felt it wouldn't be within the remit of Portfolio requirements. This would be an option for later Portfolio submissions.
 
 
-   <br><br>
+<br><br>
 
    ![Image of Navigation Bar](assets/images/navigation-bar.png)
    *Figure 1.1*
@@ -119,14 +119,53 @@ The Walks page is the primary source that reflects a strong and appealing visual
    ![Image of Navigation Bar:Hover](assets/images/navigationbar-hover.png)
    *Figure 1.2*
 
+<br><br>
 
-   # Future Features
 
-   # Testing
+## The Home Page, Images & Description
 
-   # Validation
+<br>
 
-   
+  * The Home Page consists of the quintessentially unmistakeable backdrop of an iconic landmark in that of the H'apenny Bridge. Plenty of feet have tread this bridge for centuries so it felt appropriate to make this a centrepoint image on the landing page.
+
+  * The logo sentiment is reiterated and also an added textual sentiment is present to indicate that Dublin is an exciting city that is built for walking.
+
+  * The image adopts a transform and zoom element which gives depth upon opening the page. 
+
+  <br>
+
+  ![Home Page Main Image](assets/images/hapenny.png) 
+
+  <br>
+
+  ## The Walks Page
+
+  <br>
+
+  * The Walks Page consists of a primary 40em image with an eye-catching text description of the best walks available to anyone who visits the site.
+
+  <br><br>
+
+  ## The Gallery Page
+
+  <br>
+
+  * The Gallery Page highlights a myriad of vistas and points of interest around Dublin City. It gives a nice visual of what visitors to the site could come to expect about this location.
+
+  ## The Contact Us Page
+
+  <br>
+
+  ## Footer
+
+
+  # Testing
+
+  # Validation
+
+   ![Image of Lighthouse Results](assets/images/lighthouse.png)
+
+  # Future Features
 
 
 
