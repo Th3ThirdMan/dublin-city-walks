@@ -13,7 +13,7 @@
     justify-content: space-between;
     align-items: center;
     background: black;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .dublin-title {
@@ -33,7 +33,7 @@
 
 .navbar-links li a {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 1em;
     display: block;
 }
@@ -43,12 +43,10 @@
 }
 
 .navbar-links li:hover {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 300;
     background: rgba(16, 35, 54, 0.692);
     color: #424242;
 }
@@ -76,14 +74,14 @@ body {
 }
 
 #dublin-vista h2 {
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     position: relative;
     padding-top: 4em;
 }
 
 .vista-heading {
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     font-size: 8vh;
     position: absolute;
@@ -701,16 +699,19 @@ footer {
     .container p {
         font-size: 2vh;
         padding-top: 2vh;
+        font-family: roboto;
     }
 
     .container-two p {
         font-size: 2vh;
         padding-right: 2vh;
+        font-family: roboto;
     }
 
     .container-three p {
         font-size: 2vh;
         padding-left: 2vh;
+        font-family: roboto;
     }
 
     .dublin-image {

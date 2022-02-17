@@ -34,9 +34,11 @@ The Walks page is the primary source that reflects a strong and appealing visual
 
 <br>
 
-## User Stories
+# User Stories
 
 <br>
+
+## First-time Visitors
 
 * Users should have immediate information on the subject matter of the website.
 
@@ -49,14 +51,39 @@ The Walks page is the primary source that reflects a strong and appealing visual
 
 <br>
 
+## Returning Visitors
+
+* For returning visitors it would be good to have updated information on new walks.
+
+* For returning visitors new images and information on new walks would be great to see.
+
+<br>
+
+<br>
+
+# Design
+
+<br>
+
 ## Colour Schemes
 
 <br>
 
 * For the colour schema of the website I largely drew from a personal aesthetic in an alarmingly painstaking fashion, mixing and matching colours that I felt coincided well off the palette. The body colourway proved to be the most regularly amended and I finally resolved on rgba(16, 35, 54, 0.692). I think this colour set well with the Images placed within the main body of the website, in particular the Walks page.
 
+* Navbar links and Heading text in the Home page were offered the unadventurous, but stellar rgb(255, 255, 255). This worked well and in keeping with simple, understated but classic design.
+
+* Hover options on navigation links and social media icons yielded a rgb(245, 73, 6) for good contrast.
+
+<br>
+
+## Font Families
+
+<br>
+
 * 
 
+<br><br>
 
 # Features
 
@@ -74,9 +101,12 @@ The Walks page is the primary source that reflects a strong and appealing visual
 
    * The links created give a good overview of what the website is conveying and creates a simplistic, clean view of how one should navigate the site. 
 
-   * Prevailing colours for the Navigation bar were designed in a contrasting black and white with a cursor hover element in red *(Figure 1.1)*
+   * Prevailing colours for the Navigation bar were designed in a contrasting black and white *(Figure 1.1)*
 
-   * A hover option is present on all Navigation links on all pages *(Figure 1.2)*        
+   * A hover red option with a text decoration underline is present on all Navigation links on all pages *(Figure 1.2)*  
+
+   * A hamburger menu was initially entertained and created, but the inclusion of JavaScripting felt it wouldn't be within the remit of Portfolio requirements. This would be an option for later Portfolio submissions.
+
 
    <br><br>
 
