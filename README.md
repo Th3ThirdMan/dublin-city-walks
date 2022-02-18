@@ -15,15 +15,12 @@ The Walks page is the primary source that reflects a strong and appealing visual
 
 
 ![Image of Dublin City](assets/images/amiresponsive.png)
-
 <br>
 
 # Planning Stage
-
 <br>
 
 ## Identifying a Target Audience
-
 <br>
 
 * People who enjoy walking.
@@ -32,17 +29,16 @@ The Walks page is the primary source that reflects a strong and appealing visual
 
 * People who enjoy coupling a walking past-time with that of various interests in city landmarks and historical interests.
 
-<br>
+<br><br>
 
 # User Stories
-
 <br>
 
 ## First-time Visitors
 
-* Users should have immediate information on the subject matter of the website.
+* Users should want to have immediate information on the subject matter of the website.
 
-* The site should be have the ability to be easily navigable for visitors to acquire information.
+* The site should have the ability to be easily navigable for visitors to acquire information.
 
 * The site should provide inspiration for a visitor who is interested in the subject matter.
 
@@ -69,9 +65,9 @@ The Walks page is the primary source that reflects a strong and appealing visual
 
 <br>
 
-* For the colour schema of the website I largely drew from a personal aesthetic in an alarmingly painstaking fashion, mixing and matching colours that I felt coincided well off the palette. The body colourway proved to be the most regularly amended and I finally resolved on rgba(16, 35, 54, 0.692). I think this colour set well with the Images placed within the main body of the website, in particular the Walks page.
+* For the colour schema of the website I largely drew from a personal aesthetic in a protracted and considered fashion. I mixed and matched colours that I felt coincided well off the palette. The body colourway proved to be the most regularly amended and I finally resolved on rgba(16, 35, 54, 0.692). I think this colour set well with the images placed within the main body of the website, in particular on the Walks page.
 
-* Navbar links and Heading text in the Home page were offered the unadventurous, but stellar rgb(255, 255, 255). This worked well and in keeping with simple, understated but classic design.
+* Navbar links and Heading text in the Home page were offered the unadventurous, but stellar rgb(255, 255, 255). This worked well and in keeping with a simple and understated look, but nonetheless, a classic design.
 
 * Hover options on navigation links and social media icons yielded a rgb(245, 73, 6) for good contrast.
 
@@ -83,7 +79,7 @@ The Walks page is the primary source that reflects a strong and appealing visual
 
 * Font Families included Serif, Helvetica, Source Sans Pro for the Body. I felt that Serif complimented the unfussiness of the webpages, especially for navigation links and welcome text. It added a clarity and refinedness that the pages deserved. 
 
-* Roboto was utilised for text information in the Walks page. This went well with the lightness in attitude of the Walks page. Roboto added to those descriptions, also complimenting the character of the walk descriptions.
+* Roboto was utilised for text information in the Walks page. This went well with the lightness in attitude of the Walks page. Roboto added to those descriptions, also complimenting the character of the Walks descriptions.
 
 <br><br>
 
@@ -108,7 +104,7 @@ The Walks page is the primary source that reflects a strong and appealing visual
 
    * A hover red option with a text decoration underline is present on all Navigation links on all pages *(Figure 1.2)*  
 
-   * A hamburger menu was initially entertained and created, but the inclusion of JavaScripting felt it wouldn't be within the remit of Portfolio requirements. This would be an option for later Portfolio submissions.
+   * A hamburger menu was initially entertained and created, but the inclusion of JavaScript felt it wouldn't be within the remit of Portfolio requirements. This could be an option for later Portfolio submissions.
 
 
 <br><br>
@@ -133,7 +129,7 @@ The Walks page is the primary source that reflects a strong and appealing visual
 
   * The image adopts a transform and zoom element which gives depth upon opening the page. 
 
-  * The smaller images coupled with text give more than just a visual representation, plus it gives a taste of the history of Dublin when people partake walks around the city.
+  * The smaller images coupled with text give more than just a visual representation, plus it gives a taste of the history of Dublin when people partake in walks around the city.
 
   <br>
 
@@ -168,7 +164,7 @@ The Walks page is the primary source that reflects a strong and appealing visual
 
   <br>
 
-  * The Contact Page is an essential part of the website whereby users can get in touch to ask more about the website and the content inside of it. In the case of this Contact Page it invites visitors to provide their e-mail details so they can subscribe to a newsletter.
+  * The Contact Page is an essential part of the website where users can get in touch to ask more about the website and the content inside of it. In the case of this Contact Page it invites visitors to provide their e-mail details so they can subscribe to a newsletter.
 
   <br><br>
 
@@ -176,7 +172,7 @@ The Walks page is the primary source that reflects a strong and appealing visual
 
   <br>
 
-  * The footer section link work as designed and lead a user to the appropriate websites when the icons are clicked.
+  * The footer section links work as designed and lead a user to the appropriate websites when the icons are clicked.
 
   * They are aligned closely together, centered, with a flex display.
 
@@ -191,7 +187,7 @@ The Walks page is the primary source that reflects a strong and appealing visual
 
   * The project was tested rigorously in a responsive manner, particularly for rendering on smaller and mobile devices. Devices used were: Mobile (Xiaomi Mi 10, 6"), Tablet (Samsung, 7.5" & iPad Air, 8"), Laptop (MacBook Air, 13"). 
 
-  * The site was tested on different browsers, such as Chrome, Safari and Firefox.
+  * The site was tested on different browsers, Chrome, Safari and Firefox.
 
   <br>
 
@@ -231,7 +227,7 @@ The Walks page is the primary source that reflects a strong and appealing visual
 
   * I encountered a few issues where the site didn't meet my intended expectations. This primarily resided in the arena of responsiveness when viewing the screen at mobile level. The navigation bar was reflected as a desktop view when rendered down to a mobile screen. A fix for this was to employ the flex property to adjust this issue and view the website in a proper mobile aspect.
 
-  * I encountered issues with the sub-images and text on the landing page. A container class worked well here with the images and text assuming an equality which helped when viewing on lower height and width screens.
+  * I encountered issues with the sub-images and text on the landing page. A container class worked well here with the images and text, assuming an equality to both, which helped when viewing on lower height and width screens.
 
   * Again with the sub-images on the Welcome page the images didn't align correctly as per my expectation, but through testing and research the background-size property played a part in correcting this.
 
@@ -266,13 +262,26 @@ The Walks page is the primary source that reflects a strong and appealing visual
 
     <br>
 
-    ## Content
+      The project was well supported via various channels within the Slack application. There was a lot of information posted up on the myriad of difficulties that arose throughout the project. Suffice to say, this was a great help in understanding issues and also a good opportunity to ask some questions of my own. The support and knowledge offered in these channels was a very valuable resource and helped massively to aid project completion. 
+
+      Indubitably, notable mentions must also be offered in respect to the advice imparted by the sagely Chris Quinn. He was constructive and knowledgeable when it came to pointing me in the right direction and offering up advice on areas that proved troublesome. Thanks Chris.
+
+      I also want to offer up a word of thanks to David Bowers, the Slack Support Supremo. His advice towards the latter part of the project proved the elixir to get things where they needed to be for submission. His Super Solutions avatar is definitely a fitting one. The speed at which this guy works is extraordinary! His advice was brilliant to say the least, and his ability to explain concepts to lesser mortals in such a rudimentary fashion is a skill very few can master. Thanks David.
+
 
     <br>
 
-    ## Media
+    ## Content & Media
 
     <br>
+
+    The content and media used during the project was sourced and referenced as follows:
+
+    <br>
+
+      * 
+
+
 
 
 
