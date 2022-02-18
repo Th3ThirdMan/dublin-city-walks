@@ -177,7 +177,11 @@ The Walks page is the primary source that reflects a strong and appealing visual
 
   * The footer section link work as designed and lead a user to the appropriate websites when the icons are clicked.
 
-  * They are aligned in an ordered bl
+  * They are aligned closely together, centered, with a flex display.
+
+  * Hover options on social media icons yielded a rgb(245, 73, 6) for good contrast.
+
+  * The icons were imported from Font Awesome as outlined in the index.html file with a JavaScript link.
 
   <br><br>
 
@@ -217,6 +221,34 @@ The Walks page is the primary source that reflects a strong and appealing visual
   * Add in an Upcoming Walks feature that will turn previous visitors into return visitors.
 
   * Employing a Map feature which indicates where all the walking locations are.
+
+  <br><br>
+
+  # Bugs
+
+  <br>
+
+  * I encountered a few issues where the site didn't meet my intended expectations. This primarily resided in the arena of responsiveness when viewing the screen at mobile level. The navigation bar was reflected as a desktop view when rendered down to a mobile screen. A fix for this was to employ the flex property to adjust this issue and view the website in a proper mobile aspect.
+
+  * I encountered issues with the sub-images and text on the landing page. A container class worked well here with the images and text assuming an equality which helped when viewing on lower height and width screens.
+
+  * Again with the sub-images on the Welcome page the images didn't align correctly as per my expectation, but through testing and research the background-size property played a part in correcting this.
+
+  <br><br>
+
+  # Unfixed Bugs
+
+  <br>
+
+  * There were no unfixed bugs.
+
+  <br><br>
+
+  # Deployment
+
+  <br>
+
+
 
 
 
