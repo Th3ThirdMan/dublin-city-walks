@@ -249,6 +249,31 @@ The Walks page is the primary source that reflects a strong and appealing visual
 
   <br>
 
+  * The website was deployed to GitHub Pages in the following manner:
+
+    * From the project's [Repository](https://github.com/Th3ThirdMan/dublin-city-walks) go to Settings:
+    * Scroll down to GitHub Pages
+    * Select Branch, Main & Save.
+    * A message will indicate that the project has been successfully deployed here and a live link is available.
+
+    <br>
+
+    You can find the live site here: [Dublin City Walks](https://th3thirdman.github.io/dublin-city-walks/)
+
+    <br><br>
+
+    # Credits
+
+    <br>
+
+    ## Content
+
+    <br>
+
+    ## Media
+
+    <br>
+
 
 
 
