@@ -166,6 +166,8 @@ The Walks page is the primary source that reflects a strong and appealing visual
 
   * The Contact Page is an essential part of the website where users can get in touch to ask more about the website and the content inside of it. In the case of this Contact Page it invites visitors to provide their e-mail details so they can subscribe to a newsletter.
 
+  * The Contact Page possesses a form which is conceived as a dummy form and does not collect any data.
+
   <br><br>
 
   ## Footer
