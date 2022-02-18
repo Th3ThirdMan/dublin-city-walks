@@ -65,7 +65,7 @@ The Walks page is the primary source that reflects a strong and appealing visual
 
 <br>
 
-* For the colour schema of the website I largely drew from a personal aesthetic in a protracted and considered fashion. I mixed and matched colours that I felt coincided well off the palette. The body colourway proved to be the most regularly amended and I finally resolved on rgba(16, 35, 54, 0.692). I think this colour set well with the images placed within the main body of the website, in particular on the Walks page.
+* For the colour schema of the website I largely drew from a personal aesthetic in a protracted and considered fashion. I mixed and matched colours that I felt coincided well off the palette. The body colourway proved to be the most regularly amended and I finally resolved on rgba(10, 23, 34, 0.712). I think this colour set well with the images placed within the main body of the website, in particular on the Walks page.
 
 * Navbar links and Heading text in the Home page were offered the unadventurous, but stellar rgb(255, 255, 255). This worked well and in keeping with a simple and understated look, but nonetheless, a classic design.
 
@@ -279,7 +279,16 @@ The Walks page is the primary source that reflects a strong and appealing visual
 
     <br>
 
-      * 
+     * Images [Tales from the Lens](https://talesfromthelens.com/best-walks-in-dublin-city-centre/)
+     * Images [Jetsetting Fools](https://jetsettingfools.com/dublin-ireland-self-guided-walking-tour/)
+     * Images & Text [Sidewalk Safari](https://www.sidewalksafari.com/2021/05/best-dublin-walks.html)
+     * Markdown Guide [Ionos](https://www.ionos.com/digitalguide/websites/web-development/markdown/)
+     * File Conversion [X-Convert](https://www.xconvert.com/)
+     * Knowledge Base [W3Schools](https://www.w3schools.com/)
+     * Responsive Aid [AmIResponsive](http://ami.responsivedesign.is/)
+     * Flexbox Tutorial [Flexbox](https://www.youtube.com/watch?v=FTlczfR82mQ)
+     * Social Media Icons [Font Awesome](https://fontawesome.com/)
+     * Fonts [Google Fonts](https://fonts.google.com/)
 
 
 
