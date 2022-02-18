@@ -195,7 +195,7 @@ hr {
     width: 13em;
     height: 13em;
     float: left;
-    background: url('../images/dublin-howth-walk.webp') no-repeat center center;
+    background: url('../images/dublin-howth-walk.jpg') no-repeat center center;
     border-radius: 50%;
     background-size: cover;
 }
@@ -491,7 +491,7 @@ footer {
     .image2 {
         width: 13em;
         height: 13em;
-        background: url('../images/dublin-howth-walk.webp') no-repeat center center;
+        background: url('../images/dublin-howth-walk.jpg') no-repeat center center;
         border-radius: 50%;
         background-size: cover;
     }
@@ -843,7 +843,7 @@ footer {
     .image2 {
         width: 8em;
         height: 8em;
-        background: url('../images/dublin-howth-walk.webp') no-repeat center center;
+        background: url('../images/dublin-howth-walk.jpg') no-repeat center center;
         border-radius: 50%;
         background-size: cover;
     }
@@ -1062,7 +1062,7 @@ footer {
     .image2 {
         width: 8em;
         height: 8em;
-        background: url('../images/dublin-howth-walk.webp') no-repeat center center;
+        background: url('../images/dublin-howth-walk.jpg') no-repeat center center;
         border-radius: 50%;
         background-size: cover;
     }
