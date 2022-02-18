@@ -89,6 +89,7 @@ The Walks page is the primary source that reflects a strong and appealing visual
 
 # Features
 
+<br>
 
 
 ## Navigation
